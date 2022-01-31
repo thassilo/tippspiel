@@ -1,0 +1,3 @@
+# API Changelog
+## January, 31 2022: Changelog started
+Lorem ipsum...
