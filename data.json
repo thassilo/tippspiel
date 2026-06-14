@@ -1,0 +1,58 @@
+{
+  "lastUpdated": "2026-06-13T14:00:00Z",
+  "playerOrder": [
+    "FlorianH", "FlorianP", "Manuel", "Benjamin", "Christian",
+    "Thaddaeus", "Sebastian", "Peter", "Thassilo", "David", "Max"
+  ],
+  "playerTips": {
+    "FlorianH":  { "name": "Florian H.", "weltmeister": "Frankreich",  "halbfinalisten": ["Spanien","Frankreich","Argentinien","England"],           "gelbeKarten": "Paraguay",    "toreDeutschland": 7, "gegentore": "Haiti" },
+    "FlorianP":  { "name": "Florian P.", "weltmeister": "Spanien",     "halbfinalisten": ["Spanien","Frankreich","Schweiz","Portugal"],               "gelbeKarten": "Portugal",    "toreDeutschland": 7, "gegentore": "Jordanien" },
+    "Manuel":    { "name": "Manuel",     "weltmeister": "Deutschland",  "halbfinalisten": ["Deutschland","Spanien","Argentinien","Brasilien"],         "gelbeKarten": "Marokko",     "toreDeutschland": 6, "gegentore": "Saudi-Arabien" },
+    "Benjamin":  { "name": "Benjamin",   "weltmeister": "Spanien",     "halbfinalisten": ["Frankreich","Spanien","Brasilien","Niederlande"],          "gelbeKarten": "Uruguay",     "toreDeutschland": 6, "gegentore": "Panama" },
+    "Christian": { "name": "Christian",  "weltmeister": "Spanien",     "halbfinalisten": ["England","Spanien","Argentinien","Deutschland"],           "gelbeKarten": "Argentinien", "toreDeutschland": 7, "gegentore": "Kap Verde" },
+    "Thaddaeus": { "name": "Thaddäus",   "weltmeister": "England",     "halbfinalisten": ["England","Portugal","Spanien","Deutschland"],              "gelbeKarten": "Argentinien", "toreDeutschland": 6, "gegentore": "Kap Verde" },
+    "Sebastian": { "name": "Sebastian",  "weltmeister": "Frankreich",  "halbfinalisten": ["Deutschland","Frankreich","Brasilien","Spanien"],          "gelbeKarten": "Marokko",     "toreDeutschland": 7, "gegentore": "Neuseeland" },
+    "Peter":     { "name": "Peter",      "weltmeister": "Spanien",     "halbfinalisten": ["Spanien","Frankreich","Brasilien","Deutschland"],          "gelbeKarten": "Kroatien",    "toreDeutschland": 7, "gegentore": "Haiti" },
+    "Thassilo":  { "name": "Thassilo",   "weltmeister": "Frankreich",  "halbfinalisten": ["Spanien","Frankreich","Brasilien","Argentinien"],          "gelbeKarten": "Argentinien", "toreDeutschland": 6, "gegentore": "Curaçao" },
+    "David":     { "name": "David",      "weltmeister": "Spanien",     "halbfinalisten": ["Frankreich","Spanien","England","Argentinien"],            "gelbeKarten": "Argentinien", "toreDeutschland": 8, "gegentore": "Haiti" },
+    "Max":       { "name": "Max",        "weltmeister": "Spanien",     "halbfinalisten": ["Spanien","Frankreich","Brasilien","Argentinien"],          "gelbeKarten": "Argentinien", "toreDeutschland": 7, "gegentore": "Kap Verde" }
+  },
+  "matches": [
+    { "id": 1, "date": "2026-06-11", "utcDate": "2026-06-11T23:00:00Z", "group": "A", "homeTeam": "Mexiko",     "awayTeam": "Südafrika",        "homeGoals": 2, "awayGoals": 0, "status": "FINISHED", "stage": "GROUP_STAGE" },
+    { "id": 2, "date": "2026-06-12", "utcDate": "2026-06-12T21:00:00Z", "group": "A", "homeTeam": "Südkorea",   "awayTeam": "Tschechien",       "homeGoals": 2, "awayGoals": 1, "status": "FINISHED", "stage": "GROUP_STAGE" },
+    { "id": 3, "date": "2026-06-12", "utcDate": "2026-06-12T23:00:00Z", "group": "B", "homeTeam": "Kanada",     "awayTeam": "Bosnien-Hz.",      "homeGoals": 1, "awayGoals": 1, "status": "FINISHED", "stage": "GROUP_STAGE" },
+    { "id": 4, "date": "2026-06-13", "utcDate": "2026-06-13T23:00:00Z", "group": "D", "homeTeam": "USA",        "awayTeam": "Paraguay",         "homeGoals": 4, "awayGoals": 1, "status": "FINISHED", "stage": "GROUP_STAGE" },
+    { "id": 5, "date": "2026-06-13", "utcDate": "2026-06-14T01:00:00Z", "group": "B", "homeTeam": "Katar",      "awayTeam": "Schweiz",          "homeGoals": null, "awayGoals": null, "status": "TIMED", "stage": "GROUP_STAGE" },
+    { "id": 6, "date": "2026-06-14", "utcDate": "2026-06-14T02:00:00Z", "group": "C", "homeTeam": "Brasilien",  "awayTeam": "Marokko",          "homeGoals": null, "awayGoals": null, "status": "TIMED", "stage": "GROUP_STAGE" },
+    { "id": 7, "date": "2026-06-14", "utcDate": "2026-06-14T05:00:00Z", "group": "C", "homeTeam": "Haiti",      "awayTeam": "Schottland",       "homeGoals": null, "awayGoals": null, "status": "TIMED", "stage": "GROUP_STAGE" },
+    { "id": 8, "date": "2026-06-14", "utcDate": "2026-06-14T23:00:00Z", "group": "E", "homeTeam": "Deutschland","awayTeam": "Curaçao",          "homeGoals": null, "awayGoals": null, "status": "TIMED", "stage": "GROUP_STAGE" }
+  ],
+  "germanyGoals": 0,
+  "germanyGames": 0,
+  "yellowCardsByTeam": {},
+  "goalsAgainstByTeam": {
+    "Paraguay": 4,
+    "Südafrika": 2,
+    "Tschechien": 2,
+    "Bosnien-Hz.": 1,
+    "Südkorea": 1,
+    "Kanada": 1
+  },
+  "topYellowCardTeam": null,
+  "topGoalsAgainstTeam": "Paraguay",
+  "semifinals": [],
+  "worldChampion": null,
+  "scores": {
+    "FlorianH":  { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "FlorianP":  { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "Manuel":    { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "Benjamin":  { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "Christian": { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "Thaddaeus": { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "Sebastian": { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "Peter":     { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "Thassilo":  { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "David":     { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 },
+    "Max":       { "weltmeister": null, "halbfinalisten": null, "gelbeKarten": null, "toreDeutschland": null, "gegentore": null, "total": 0 }
+  }
+}
