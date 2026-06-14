@@ -6,38 +6,27 @@
   <title>WM-Tippspiel 2026</title>
   <style>
     :root {
-      --bg: #0d1b2e;
-      --bg2: #132035;
-      --bg3: #0a1828;
-      --border: #1e3a5f;
-      --gold: #e8b923;
-      --blue: #8ab0d0;
-      --green: #3dba6a;
-      --red: #e05050;
-      --text: #d8e6f4;
-      --muted: #6a8caa;
+      --bg: #0d1b2e; --bg2: #132035; --bg3: #0a1828;
+      --border: #1e3a5f; --gold: #e8b923; --blue: #8ab0d0;
+      --green: #3dba6a; --red: #e05050; --text: #d8e6f4; --muted: #6a8caa;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'Segoe UI', Arial, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
 
-    /* HEADER */
     header { background: linear-gradient(135deg, #081525 0%, #0f2848 100%); border-bottom: 3px solid var(--gold); padding: 28px 20px 22px; text-align: center; }
     header h1 { font-size: 2.1em; color: var(--gold); letter-spacing: 1px; }
     header .subtitle { color: var(--blue); margin-top: 6px; font-size: 0.95em; }
     header .updated { color: var(--muted); margin-top: 4px; font-size: 0.82em; }
 
-    /* LAYOUT */
     .container { max-width: 1420px; margin: 0 auto; padding: 22px 16px; }
     .section { background: var(--bg2); border-radius: 12px; padding: 22px; margin-bottom: 24px; border: 1px solid var(--border); }
     .section h2 { color: var(--gold); font-size: 1.15em; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
 
-    /* STATUS PILLS */
     .pill { display: inline-block; padding: 2px 9px; border-radius: 10px; font-size: 0.75em; font-weight: 600; }
-    .pill-open  { background: #1e3a5f; color: var(--blue); }
-    .pill-live  { background: #1a3d18; color: var(--green); }
-    .pill-done  { background: #3d1a1a; color: var(--red); }
+    .pill-open { background: #1e3a5f; color: var(--blue); }
+    .pill-live { background: #1a3d18; color: var(--green); }
+    .pill-done { background: #3d1a1a; color: var(--red); }
 
-    /* MATCH CARDS */
     .matches { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
     .match { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
     .match .meta { font-size: 0.72em; color: var(--muted); margin-bottom: 8px; display: flex; justify-content: space-between; }
@@ -47,17 +36,15 @@
     .match .score { color: var(--gold); font-size: 1.5em; font-weight: 700; text-align: center; white-space: nowrap; }
     .match .score.pending { color: var(--muted); font-size: 1em; }
 
-    /* GERMANY PROGRESS */
     .de-status { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
     .de-game { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
     .de-game .date { font-size: 0.73em; color: var(--muted); margin-bottom: 6px; }
     .de-game .matchup { font-weight: 600; margin-bottom: 4px; }
     .de-game .result { color: var(--gold); font-weight: 700; }
     .de-game .result.pending { color: var(--muted); font-size: 0.85em; font-weight: 400; }
-    .de-total { margin-top: 14px; padding: 12px 16px; background: var(--bg3); border-radius: 8px; border: 1px solid var(--border); font-size: 1.0em; }
-    .de-total span { color: var(--gold); font-size: 1.5em; font-weight: 700; }
+    .de-total { margin-top: 14px; padding: 12px 16px; background: var(--bg3); border-radius: 8px; border: 1px solid var(--border); }
+    .de-total span.big { color: var(--gold); font-size: 1.5em; font-weight: 700; }
 
-    /* BIG TIPS TABLE */
     .tbl-wrap { overflow-x: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 0.82em; white-space: nowrap; }
     thead th { background: var(--bg3); color: var(--gold); padding: 10px 11px; text-align: left; border-bottom: 2px solid var(--gold); position: sticky; top: 0; }
@@ -71,11 +58,7 @@
     td.p-tip { text-align: center; }
     td.no-tip { text-align: center; color: var(--muted); font-style: italic; }
     td.semi-tip { text-align: center; line-height: 1.5; white-space: normal; min-width: 130px; }
-    .correct { color: var(--green); font-weight: 700; }
-    .wrong   { color: var(--red); }
-    .partial { color: #e09530; }
 
-    /* POINTS TABLE */
     .pts-wrap { overflow-x: auto; }
     .pts-tbl { width: 100%; border-collapse: collapse; font-size: 0.88em; }
     .pts-tbl thead th { background: var(--bg3); color: var(--gold); padding: 10px 13px; text-align: center; border-bottom: 2px solid var(--gold); }
@@ -91,11 +74,6 @@
     .rank-2 { background: #888; color: #fff; }
     .rank-3 { background: #a0522d; color: #fff; }
 
-    /* LEGEND */
-    .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; font-size: 0.82em; }
-    .legend-item { display: flex; align-items: center; gap: 6px; }
-
-    /* INFO BOX */
     .info-box { background: #0d2040; border: 1px solid #1e4a80; border-radius: 8px; padding: 12px 16px; font-size: 0.85em; color: var(--blue); margin-top: 14px; }
     .info-box strong { color: var(--gold); }
 
@@ -111,7 +89,7 @@
 <header>
   <h1>🏆 WM-Tippspiel 2026</h1>
   <div class="subtitle">Canada &bull; Mexico &bull; USA &nbsp;|&nbsp; 11. Juni – 19. Juli 2026</div>
-  <div class="updated">Stand: 13. Juni 2026, 16:00 Uhr &mdash; Einsatz: 25 € pro Person</div>
+  <div class="updated">Stand: <span id="last-updated">13. Juni 2026, 14:00 Uhr</span></div>
 </header>
 
 <div class="container">
@@ -119,75 +97,35 @@
   <!-- ─── BISHERIGE ERGEBNISSE ─── -->
   <div class="section">
     <h2>⚽ Bisherige Ergebnisse (Spieltag 1)</h2>
-    <div class="matches">
-
+    <div class="matches" id="matches-container">
+      <!-- Initial static content – JavaScript will replace this with live data -->
       <div class="match">
         <div class="meta"><span>Do. 11.06. &bull; Gruppe A</span><span class="pill pill-done">Abgepfiffen</span></div>
-        <div class="teams">
-          <div class="team">🇲🇽 Mexiko</div>
-          <div class="score">2 : 0</div>
-          <div class="team right">Südafrika 🇿🇦</div>
-        </div>
+        <div class="teams"><div class="team">🇲🇽 Mexiko</div><div class="score">2 : 0</div><div class="team right">Südafrika 🇿🇦</div></div>
       </div>
-
       <div class="match">
         <div class="meta"><span>Fr. 12.06. &bull; Gruppe A</span><span class="pill pill-done">Abgepfiffen</span></div>
-        <div class="teams">
-          <div class="team">🇰🇷 Südkorea</div>
-          <div class="score">2 : 1</div>
-          <div class="team right">Tschechien 🇨🇿</div>
-        </div>
+        <div class="teams"><div class="team">🇰🇷 Südkorea</div><div class="score">2 : 1</div><div class="team right">Tschechien 🇨🇿</div></div>
       </div>
-
       <div class="match">
         <div class="meta"><span>Fr. 12.06. &bull; Gruppe B</span><span class="pill pill-done">Abgepfiffen</span></div>
-        <div class="teams">
-          <div class="team">🇨🇦 Kanada</div>
-          <div class="score">1 : 1</div>
-          <div class="team right">Bosnien-Hz. 🇧🇦</div>
-        </div>
+        <div class="teams"><div class="team">🇨🇦 Kanada</div><div class="score">1 : 1</div><div class="team right">Bosnien-Hz. 🇧🇦</div></div>
       </div>
-
       <div class="match">
         <div class="meta"><span>Sa. 13.06. &bull; Gruppe D</span><span class="pill pill-done">Abgepfiffen</span></div>
-        <div class="teams">
-          <div class="team">🇺🇸 USA</div>
-          <div class="score">4 : 1</div>
-          <div class="team right">Paraguay 🇵🇾</div>
-        </div>
+        <div class="teams"><div class="team">🇺🇸 USA</div><div class="score">4 : 1</div><div class="team right">Paraguay 🇵🇾</div></div>
       </div>
-
       <div class="match">
-        <div class="meta"><span>Sa. 13.06. &bull; Gruppe B</span><span class="pill pill-live">Heute geplant</span></div>
-        <div class="teams">
-          <div class="team">🇶🇦 Katar</div>
-          <div class="score pending">vs.</div>
-          <div class="team right">Schweiz 🇨🇭</div>
-        </div>
+        <div class="meta"><span>Sa. 13.06. &bull; Gruppe B</span><span class="pill pill-live">Ausstehend</span></div>
+        <div class="teams"><div class="team">🇶🇦 Katar</div><div class="score pending">vs.</div><div class="team right">Schweiz 🇨🇭</div></div>
       </div>
-
       <div class="match">
-        <div class="meta"><span>Sa./So. 13./14.06. &bull; Gruppe C</span><span class="pill pill-live">Ausstehend</span></div>
-        <div class="teams">
-          <div class="team">🇧🇷 Brasilien</div>
-          <div class="score pending">vs.</div>
-          <div class="team right">Marokko 🇲🇦</div>
-        </div>
+        <div class="meta"><span>So. 14.06. &bull; Gruppe E</span><span class="pill pill-live">Ausstehend</span></div>
+        <div class="teams"><div class="team">🇩🇪 Deutschland</div><div class="score pending">vs.</div><div class="team right">Curaçao 🇨🇼</div></div>
       </div>
-
-      <div class="match">
-        <div class="meta"><span>Sa./So. 13./14.06. &bull; Gruppe C</span><span class="pill pill-live">Ausstehend</span></div>
-        <div class="teams">
-          <div class="team">🇭🇹 Haiti</div>
-          <div class="score pending">vs.</div>
-          <div class="team right">Schottland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</div>
-        </div>
-      </div>
-
     </div>
-
-    <div class="info-box" style="margin-top:14px;">
-      ⚠️ <strong>Notiz:</strong> Mexiko vs. Südafrika (Eröffnungsspiel) endete mit <strong>3 Roten Karten</strong> – so viele wie noch nie bei einem WM-Eröffnungsspiel. Südafrika schoss ein Eigentor.
+    <div class="info-box">
+      ⚠️ <strong>Notiz:</strong> Das Eröffnungsspiel Mexiko vs. Südafrika endete mit <strong>3 Roten Karten</strong> – Rekord für ein WM-Eröffnungsspiel.
     </div>
   </div>
 
@@ -195,32 +133,33 @@
   <div class="section">
     <h2>🇩🇪 Deutschland – Vorrunden-Tore (Frage 4)</h2>
     <div class="de-status">
-      <div class="de-game">
+      <div class="de-game" id="de-game-1">
         <div class="date">Sa. 14.06. &bull; Gruppe E &bull; Houston</div>
         <div class="matchup">Deutschland vs. Curaçao 🇨🇼</div>
         <div class="result pending">⏳ Noch nicht gespielt</div>
       </div>
-      <div class="de-game">
+      <div class="de-game" id="de-game-2">
         <div class="date">Fr. 20.06. &bull; Gruppe E &bull; Toronto</div>
         <div class="matchup">Deutschland vs. Elfenbeinküste 🇨🇮</div>
         <div class="result pending">⏳ Noch nicht gespielt</div>
       </div>
-      <div class="de-game">
+      <div class="de-game" id="de-game-3">
         <div class="date">Mi. 25.06. &bull; Gruppe E</div>
         <div class="matchup">Deutschland vs. Ecuador 🇪🇨</div>
         <div class="result pending">⏳ Noch nicht gespielt</div>
       </div>
     </div>
     <div class="de-total">
-      Aktuelle Tore Deutschland (Vorrunde): <span>0</span> &nbsp;⚽&nbsp; (0 Spiele absolviert)
+      Aktuelle Tore Deutschland (Vorrunde): <span class="big" id="germany-goals-count">0</span> &nbsp;⚽&nbsp;
+      (<span id="germany-games-count">0</span>/3 Spiele absolviert)
     </div>
     <div class="info-box">
-      Deutschland spielt morgen erstmals, am <strong>14. Juni</strong> gegen Curaçao. Die Tipps der Spieler reichen von 6 bis 8 Toren.<br>
       <strong>Wertung:</strong> 3 Punkte bei exaktem Ergebnis oder ±1 Tor Abweichung.
+      Tipps reichen von 6 bis 8 Tore.
     </div>
   </div>
 
-  <!-- ─── ALLE TIPPS ─── -->
+  <!-- ─── ALLE TIPPS (STATIC) ─── -->
   <div class="section">
     <h2>📋 Alle Tipps im Überblick</h2>
     <div class="tbl-wrap">
@@ -244,10 +183,9 @@
           </tr>
         </thead>
         <tbody>
-          <!-- ROW 1: Weltmeister -->
           <tr>
             <td class="q-label">🏆 Weltmeister<br><span style="font-size:0.8em;color:var(--muted)">5 Punkte</span></td>
-            <td class="q-status"><span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Gruppenphase läuft<br>(Finale: 19. Juli)</span></td>
+            <td class="q-status" id="status-weltmeister"><span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Gruppenphase läuft<br>(Finale: 19. Juli)</span></td>
             <td class="p-tip">Frankreich 🇫🇷</td>
             <td class="p-tip">Spanien 🇪🇸</td>
             <td class="p-tip">Deutschland 🇩🇪</td>
@@ -261,10 +199,9 @@
             <td class="p-tip">Spanien 🇪🇸</td>
             <td class="p-tip">Spanien 🇪🇸</td>
           </tr>
-          <!-- ROW 2: Halbfinalisten -->
           <tr>
             <td class="q-label">🎯 Halbfinalisten<br><span style="font-size:0.8em;color:var(--muted)">1 Pkt./Team · 5 Pkt. bei allen 4</span></td>
-            <td class="q-status"><span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Halbfinale: ab 14. Juli</span></td>
+            <td class="q-status" id="status-halbfinalisten"><span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Halbfinale: ab 14. Juli</span></td>
             <td class="semi-tip">Spanien<br>Frankreich<br>Argentinien<br>England</td>
             <td class="semi-tip">Spanien<br>Frankreich<br>Schweiz<br>Portugal</td>
             <td class="semi-tip">Deutschland<br>Spanien<br>Argentinien<br>Brasilien</td>
@@ -278,10 +215,9 @@
             <td class="semi-tip">Frankreich<br>Spanien<br>England<br>Argentinien</td>
             <td class="semi-tip">Spanien<br>Frankreich<br>Brasilien<br>Argentinien</td>
           </tr>
-          <!-- ROW 3: Gelbe Karten -->
           <tr>
             <td class="q-label">🟨 Meiste gelbe Karten<br><span style="font-size:0.8em;color:var(--muted)">3 Punkte</span></td>
-            <td class="q-status"><span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Nur 4 Spiele gespielt.<br>Zu wenig Daten.</span></td>
+            <td class="q-status" id="status-gelbe"><span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Erst 4 Spiele gespielt</span></td>
             <td class="p-tip">Paraguay 🇵🇾</td>
             <td class="p-tip">Portugal 🇵🇹</td>
             <td class="p-tip">Marokko 🇲🇦</td>
@@ -295,10 +231,9 @@
             <td class="p-tip">Argentinien 🇦🇷</td>
             <td class="p-tip">Argentinien 🇦🇷</td>
           </tr>
-          <!-- ROW 4: Tore Deutschland -->
           <tr>
             <td class="q-label">⚽ Tore Deutschland (VR)<br><span style="font-size:0.8em;color:var(--muted)">3 Pkt. (exakt oder ±1)</span></td>
-            <td class="q-status"><span class="pill pill-open">⏳ Läuft</span><br><span style="font-size:0.82em;margin-top:4px;display:block"><strong style="color:var(--gold)">0 Tore</strong> (0/3 Spiele)</span></td>
+            <td class="q-status" id="status-tore-de"><span class="pill pill-open">⏳ Läuft</span><br><span style="font-size:0.82em;margin-top:4px;display:block"><strong style="color:var(--gold)" id="germany-goals-count2">0 Tore</strong> (0/3 Spiele)</span></td>
             <td class="p-tip">7</td>
             <td class="p-tip">7</td>
             <td class="p-tip">6</td>
@@ -312,10 +247,9 @@
             <td class="p-tip">8</td>
             <td class="p-tip">7</td>
           </tr>
-          <!-- ROW 5: Gegentore -->
           <tr>
             <td class="q-label">🚨 Meiste Gegentore<br><span style="font-size:0.8em;color:var(--muted)">3 Punkte</span></td>
-            <td class="q-status"><span class="pill pill-open">⏳ Läuft</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Aktuell:<br>🇵🇾 <strong style="color:var(--gold)">Paraguay (4)</strong><br>🇿🇦 Südafrika (2)<br>🇨🇿 Tschechien (2)<br><em style="font-size:0.9em">Getippte Teams haben<br>noch nicht gespielt!</em></span></td>
+            <td class="q-status" id="status-gegentore"><span class="pill pill-open">⏳ Läuft</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Aktuell:<br>🇵🇾 <strong style="color:var(--gold)">Paraguay (4 GT)</strong><br><em style="font-size:0.9em">Getippte Teams noch<br>nicht alle gespielt</em></span></td>
             <td class="p-tip">Haiti 🇭🇹</td>
             <td class="p-tip">Jordanien 🇯🇴</td>
             <td class="p-tip">Saudi-Arab. 🇸🇦</td>
@@ -338,7 +272,7 @@
   <div class="section">
     <h2>🏅 Punktetabelle</h2>
     <p style="color:var(--blue);font-size:0.88em;margin-bottom:16px;">
-      Der Spieltag 1 ist zum Teil gespielt. Alle Fragen sind noch offen – die Punkte werden am Ende des Turniers (bzw. der Vorrunde für Frage 4) vergeben.
+      Punkte werden vergeben, sobald eine Kategorie entschieden ist.
     </p>
     <div class="pts-wrap">
       <table class="pts-tbl">
@@ -353,114 +287,32 @@
             <th>Gesamt<br><span style="font-weight:400;font-size:0.8em">(max. 19)</span></th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td><span class="rank rank-1">–</span>Florian H.</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>Florian P.</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>Manuel</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>Benjamin</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>Christian</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Dirk</td>
-            <td colspan="5" style="text-align:center;color:var(--muted);font-style:italic;font-size:0.88em;">Kein Tipp abgegeben</td>
-            <td class="total" style="color:var(--muted);">–</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>Thaddäus</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>Sebastian</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>Peter</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>Thassilo</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>David</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
-          <tr>
-            <td><span class="rank rank-1">–</span>Max</td>
-            <td>–</td><td>–</td><td>–</td><td>–</td><td>–</td>
-            <td class="total">0</td>
-          </tr>
+        <tbody id="points-tbody">
+          <!-- Static fallback – JavaScript will replace with sorted live data -->
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Florian H.</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Florian P.</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Manuel</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Benjamin</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Christian</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Dirk</td><td colspan="5" style="text-align:center;color:var(--muted);font-style:italic;font-size:0.88em;">Kein Tipp abgegeben</td><td class="total" style="color:var(--muted);">–</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Thaddäus</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Sebastian</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Peter</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Thassilo</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>David</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
+          <tr><td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Max</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="total">0</td></tr>
         </tbody>
         <tfoot>
-          <tr>
-            <td colspan="7">
-              Punkte werden vergeben wenn die Frage entschieden ist. Alle Kategorien laufen noch.
-              &nbsp;|&nbsp; Vorrunde Deutschland endet ~27. Juni &nbsp;|&nbsp; Halbfinale: 14.–15. Juli &nbsp;|&nbsp; Finale: 19. Juli 2026
-            </td>
-          </tr>
+          <tr><td colspan="7">Vorrunde Deutschland endet ~27. Juni &nbsp;|&nbsp; Halbfinale: 14.–15. Juli &nbsp;|&nbsp; Finale: 19. Juli 2026</td></tr>
         </tfoot>
       </table>
     </div>
 
-    <!-- QUICK STATUS -->
     <div style="margin-top:20px;">
       <h3 style="color:var(--gold);font-size:1.0em;margin-bottom:12px;">📊 Aktuelle Tendenz je Kategorie</h3>
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;">
-
-        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
-          <div style="font-weight:600;margin-bottom:6px;">🏆 Weltmeister <span class="pill pill-open" style="float:right">Offen</span></div>
-          <div style="font-size:0.84em;color:var(--blue);">Turnier läuft. Keine Tendenz erkennbar.</div>
-          <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">Spanien (6×) · Frankreich (3×) · Deutschland (1×) · England (1×)</div>
-        </div>
-
-        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
-          <div style="font-weight:600;margin-bottom:6px;">🎯 Halbfinalisten <span class="pill pill-open" style="float:right">Offen</span></div>
-          <div style="font-size:0.84em;color:var(--blue);">Gruppenphase läuft noch (bis ~27. Juni).</div>
-          <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">Am häufigsten getippt: Spanien (11×) · Frankreich (10×) · Brasilien (8×) · Argentinien (7×)</div>
-        </div>
-
-        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
-          <div style="font-weight:600;margin-bottom:6px;">🟨 Meiste gelbe Karten <span class="pill pill-open" style="float:right">Offen</span></div>
-          <div style="font-size:0.84em;color:var(--blue);">Erst 4 Spiele – zu wenig Daten für eine Tendenz.</div>
-          <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">Argentinien (5×) · Marokko (2×) · Paraguay, Portugal, Uruguay, Kroatien (je 1×)</div>
-        </div>
-
-        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
-          <div style="font-weight:600;margin-bottom:6px;">⚽ Tore Deutschland <span class="pill pill-open" style="float:right">Läuft</span></div>
-          <div style="font-size:0.84em;color:var(--gold);">Aktuell: 0 Tore (0/3 Spiele)</div>
-          <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">Nächstes Spiel: <strong style="color:var(--text)">14.06. vs. Curaçao</strong><br>Tipps: 6 Tore (4×) · 7 Tore (5×) · 8 Tore (1×)</div>
-        </div>
-
-        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
-          <div style="font-weight:600;margin-bottom:6px;">🚨 Meiste Gegentore <span class="pill pill-open" style="float:right">Läuft</span></div>
-          <div style="font-size:0.84em;color:var(--blue);">Aktuell führt <strong style="color:var(--gold)">Paraguay (4 GT)</strong> – aber nicht von jemandem getippt!</div>
-          <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">Haiti (3×) · Kap Verde (3×) · Curaçao (1×) · Jordanien · Panama · Saudi-Arabien · Neuseeland</div>
-        </div>
-
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;" id="quick-status-container">
+        <!-- JavaScript will render these cards -->
+        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;color:var(--muted);text-align:center;font-size:0.85em;">Lade aktuelle Daten…</div>
       </div>
     </div>
   </div>
@@ -469,32 +321,287 @@
   <div class="section">
     <h2>📜 Regeln</h2>
     <ul style="list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;font-size:0.88em;">
-      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">
-        🏆 <strong>Weltmeister:</strong> 5 Punkte bei richtigem Tipp
-      </li>
-      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">
-        🎯 <strong>Halbfinalisten:</strong> 1 Punkt/richtiges Land<br>Bonus: 5 Punkte wenn alle 4 stimmen
-      </li>
-      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">
-        🟨 <strong>Meiste gelbe Karten:</strong> 3 Punkte
-      </li>
-      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">
-        ⚽ <strong>Tore Deutschland (Vorrunde):</strong> 3 Punkte (exakt oder ±1)
-      </li>
-      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">
-        🚨 <strong>Meiste Gegentore:</strong> 3 Punkte
-      </li>
-      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">
-        💰 <strong>Einsatz:</strong> 25 € &bull; Bei Punktgleichheit: Gewinn teilen
-      </li>
+      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">🏆 <strong>Weltmeister:</strong> 5 Punkte bei richtigem Tipp</li>
+      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">🎯 <strong>Halbfinalisten:</strong> 1 Punkt/richtiges Land<br>Bonus: 5 Punkte wenn alle 4 stimmen</li>
+      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">🟨 <strong>Meiste gelbe Karten:</strong> 3 Punkte</li>
+      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">⚽ <strong>Tore Deutschland (Vorrunde):</strong> 3 Punkte (exakt oder ±1)</li>
+      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">🚨 <strong>Meiste Gegentore:</strong> 3 Punkte</li>
+      <li style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;">💰 <strong>Einsatz:</strong> 25 € &bull; Bei Punktgleichheit: Gewinn teilen</li>
     </ul>
   </div>
 
 </div>
 
 <footer style="text-align:center;padding:18px;color:var(--muted);font-size:0.8em;border-top:1px solid var(--border);">
-  WM-Tippspiel 2026 &bull; Zuletzt aktualisiert: 13. Juni 2026
+  WM-Tippspiel 2026
 </footer>
 
+<script>
+const FLAGS = {
+  "Deutschland":"🇩🇪","Frankreich":"🇫🇷","Spanien":"🇪🇸","England":"🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "Argentinien":"🇦🇷","Brasilien":"🇧🇷","Niederlande":"🇳🇱","Portugal":"🇵🇹",
+  "Schweiz":"🇨🇭","Marokko":"🇲🇦","Paraguay":"🇵🇾","Uruguay":"🇺🇾",
+  "Kroatien":"🇭🇷","Haiti":"🇭🇹","Jordanien":"🇯🇴","Saudi-Arabien":"🇸🇦",
+  "Panama":"🇵🇦","Kap Verde":"🇨🇻","Neuseeland":"🇳🇿","Curaçao":"🇨🇼",
+  "Mexiko":"🇲🇽","Südkorea":"🇰🇷","Tschechien":"🇨🇿","Kanada":"🇨🇦",
+  "Bosnien-Hz.":"🇧🇦","USA":"🇺🇸","Katar":"🇶🇦","Südafrika":"🇿🇦",
+  "Schottland":"🏴󠁧󠁢󠁳󠁣󠁴󠁿","Elfenbeinküste":"🇨🇮","Ecuador":"🇪🇨",
+  "Australien":"🇦🇺","Türkei":"🇹🇷","Japan":"🇯🇵","Senegal":"🇸🇳",
+  "Nigeria":"🇳🇬","Kolumbien":"🇨🇴","Chile":"🇨🇱","Peru":"🇵🇪",
+  "Iran":"🇮🇷","Serbien":"🇷🇸","Polen":"🇵🇱","Belgien":"🇧🇪",
+  "Rumänien":"🇷🇴","Österreich":"🇦🇹","Dänemark":"🇩🇰","Schweden":"🇸🇪",
+};
+
+const WDAYS = ['So','Mo','Di','Mi','Do','Fr','Sa'];
+const MONTHS_SHORT = ['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'];
+const MONTHS_LONG  = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+
+function fmtDate(isoDate) {
+  const d = new Date(isoDate + 'T12:00:00Z');
+  return `${WDAYS[d.getUTCDay()]}. ${d.getUTCDate()}. ${MONTHS_SHORT[d.getUTCMonth()]}.`;
+}
+
+function fmtTimestamp(iso) {
+  const d = new Date(iso);
+  const pad = n => String(n).padStart(2,'0');
+  return `${d.getUTCDate()}. ${MONTHS_LONG[d.getUTCMonth()]} ${d.getUTCFullYear()}, ${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())} Uhr`;
+}
+
+function f(team) { return FLAGS[team] || ''; }
+function pts(val) {
+  if (val === null || val === undefined) return '<span style="color:var(--muted)">–</span>';
+  if (val === 0) return '<span style="color:var(--red)">0</span>';
+  return `<span style="color:var(--green);font-weight:600">${val}</span>`;
+}
+
+// ── Render match cards ─────────────────────────────────────────────────────
+function renderMatches(container, matches) {
+  const gs = matches.filter(m => m.stage === 'GROUP_STAGE');
+  const finished = gs.filter(m => m.status === 'FINISHED');
+  const upcoming = gs.filter(m => m.status !== 'FINISHED').slice(0, 6);
+  const toShow = [...finished.slice(-8), ...upcoming];
+
+  container.innerHTML = toShow.map(m => {
+    if (m.status === 'FINISHED') {
+      return `<div class="match">
+        <div class="meta"><span>${fmtDate(m.date)} &bull; Gruppe ${m.group}</span><span class="pill pill-done">Abgepfiffen</span></div>
+        <div class="teams">
+          <div class="team">${f(m.homeTeam)} ${m.homeTeam}</div>
+          <div class="score">${m.homeGoals} : ${m.awayGoals}</div>
+          <div class="team right">${m.awayTeam} ${f(m.awayTeam)}</div>
+        </div></div>`;
+    }
+    return `<div class="match">
+      <div class="meta"><span>${fmtDate(m.date)} &bull; Gruppe ${m.group}</span><span class="pill pill-live">Ausstehend</span></div>
+      <div class="teams">
+        <div class="team">${f(m.homeTeam)} ${m.homeTeam}</div>
+        <div class="score pending">vs.</div>
+        <div class="team right">${m.awayTeam} ${f(m.awayTeam)}</div>
+      </div></div>`;
+  }).join('') || '<p style="color:var(--muted);padding:12px">Keine Spieldaten verfügbar.</p>';
+}
+
+// ── Update Germany section ─────────────────────────────────────────────────
+function updateGermany(data) {
+  const gc = document.getElementById('germany-goals-count');
+  const gc2 = document.getElementById('germany-goals-count2');
+  const gm = document.getElementById('germany-games-count');
+  if (gc)  gc.textContent  = data.germanyGoals;
+  if (gm)  gm.textContent  = data.germanyGames;
+  if (gc2) gc2.textContent = data.germanyGoals + ' Tore';
+
+  // Update individual game cards if we have match data
+  const dGames = (data.matches || []).filter(
+    m => m.stage === 'GROUP_STAGE' && (m.homeTeam === 'Deutschland' || m.awayTeam === 'Deutschland')
+  ).sort((a,b) => a.utcDate.localeCompare(b.utcDate));
+
+  dGames.forEach((m, i) => {
+    const card = document.getElementById(`de-game-${i+1}`);
+    if (!card) return;
+    const resultEl = card.querySelector('.result');
+    if (m.status === 'FINISHED') {
+      const isHome = m.homeTeam === 'Deutschland';
+      const deGoals = isHome ? m.homeGoals : m.awayGoals;
+      const oppGoals = isHome ? m.awayGoals : m.homeGoals;
+      const opp = isHome ? m.awayTeam : m.homeTeam;
+      resultEl.className = 'result';
+      resultEl.textContent = `✅ ${m.homeTeam} ${m.homeGoals}:${m.awayGoals} ${m.awayTeam}`;
+    }
+  });
+}
+
+// ── Update tips-table status cells ─────────────────────────────────────────
+function updateStatusCells(data) {
+  const sw = document.getElementById('status-weltmeister');
+  if (sw) {
+    if (data.worldChampion) {
+      sw.innerHTML = `<span class="pill pill-done">✅ Entschieden</span><br><strong style="color:var(--gold)">${f(data.worldChampion)} ${data.worldChampion}</strong>`;
+    } else {
+      sw.innerHTML = `<span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Gruppenphase läuft<br>(Finale: 19. Juli)</span>`;
+    }
+  }
+
+  const sh = document.getElementById('status-halbfinalisten');
+  if (sh) {
+    const sf = data.semifinals || [];
+    if (sf.length >= 4) {
+      sh.innerHTML = `<span class="pill pill-done">✅ Entschieden</span><br>${sf.map(t=>`${f(t)} ${t}`).join('<br>')}`;
+    } else if (sf.length > 0) {
+      sh.innerHTML = `<span class="pill pill-live">🔄 Läuft</span><br>${sf.map(t=>`${f(t)} ${t}`).join('<br>')}<br><em style="font-size:0.82em">(${sf.length}/4 bekannt)</em>`;
+    } else {
+      sh.innerHTML = `<span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Halbfinale: ab 14. Juli</span>`;
+    }
+  }
+
+  const sg = document.getElementById('status-gelbe');
+  if (sg) {
+    if (data.topYellowCardTeam && data.worldChampion) {
+      sg.innerHTML = `<span class="pill pill-done">✅ Entschieden</span><br><strong style="color:var(--gold)">${f(data.topYellowCardTeam)} ${data.topYellowCardTeam}</strong>`;
+    } else if (data.topYellowCardTeam) {
+      const cnt = (data.yellowCardsByTeam || {})[data.topYellowCardTeam] || '?';
+      sg.innerHTML = `<span class="pill pill-open">⏳ Läuft</span><br>Aktuell: <strong style="color:var(--gold)">${f(data.topYellowCardTeam)} ${data.topYellowCardTeam} (${cnt} 🟨)</strong>`;
+    } else {
+      sg.innerHTML = `<span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em;margin-top:4px;display:block">Zu wenige Spiele</span>`;
+    }
+  }
+
+  const st = document.getElementById('status-tore-de');
+  if (st) {
+    const done = data.germanyGames >= 3;
+    st.innerHTML = `<span class="pill pill-open">⏳ ${done?'Abgeschlossen':'Läuft'}</span><br><strong style="color:var(--gold)">${data.germanyGoals} Tore</strong> (${data.germanyGames}/3 Spiele)`;
+  }
+
+  const sc = document.getElementById('status-gegentore');
+  if (sc) {
+    const top = data.topGoalsAgainstTeam;
+    if (top && data.worldChampion) {
+      const cnt = (data.goalsAgainstByTeam || {})[top] || '?';
+      sc.innerHTML = `<span class="pill pill-done">✅ Entschieden</span><br><strong style="color:var(--gold)">${f(top)} ${top} (${cnt} GT)</strong>`;
+    } else if (top) {
+      const cnt = (data.goalsAgainstByTeam || {})[top] || '?';
+      sc.innerHTML = `<span class="pill pill-open">⏳ Läuft</span><br>Aktuell: <strong style="color:var(--gold)">${f(top)} ${top} (${cnt} GT)</strong>`;
+    } else {
+      sc.innerHTML = `<span class="pill pill-open">⏳ Offen</span><br><span style="font-size:0.82em">Noch keine Daten</span>`;
+    }
+  }
+}
+
+// ── Render points table (sorted) ───────────────────────────────────────────
+function renderPointsTable(tbody, data) {
+  const order  = data.playerOrder || [];
+  const scores = data.scores || {};
+  const tips   = data.playerTips || {};
+
+  const sorted = [...order].sort((a,b) => (scores[b]||{}).total - (scores[a]||{}).total);
+
+  tbody.innerHTML = sorted.map((key, i) => {
+    const s = scores[key] || {};
+    const name = (tips[key] || {}).name || key;
+    const total = s.total || 0;
+    let rankHtml = '<span style="display:inline-block;width:27px;margin-right:5px;"></span>';
+    if (i === 0 && total > 0) rankHtml = '<span class="rank rank-1">1</span>';
+    else if (i === 1 && total > 0) rankHtml = '<span class="rank rank-2">2</span>';
+    else if (i === 2 && total > 0) rankHtml = '<span class="rank rank-3">3</span>';
+
+    return `<tr>
+      <td>${rankHtml}${name}</td>
+      <td>${pts(s.weltmeister)}</td>
+      <td>${pts(s.halbfinalisten)}</td>
+      <td>${pts(s.gelbeKarten)}</td>
+      <td>${pts(s.toreDeutschland)}</td>
+      <td>${pts(s.gegentore)}</td>
+      <td class="total">${total}</td>
+    </tr>`;
+  }).join('');
+
+  // Add Dirk row (no tips) at the bottom
+  tbody.innerHTML += `<tr>
+    <td><span style="display:inline-block;width:27px;margin-right:5px;"></span>Dirk</td>
+    <td colspan="5" style="text-align:center;color:var(--muted);font-style:italic;font-size:0.88em;">Kein Tipp abgegeben</td>
+    <td class="total" style="color:var(--muted);">–</td>
+  </tr>`;
+}
+
+// ── Render quick status cards ──────────────────────────────────────────────
+function renderStatusCards(container, data) {
+  const order = data.playerOrder || [];
+  const tips  = data.playerTips  || {};
+
+  const wmCounts = {};
+  order.forEach(k => { const w = (tips[k]||{}).weltmeister; if(w) wmCounts[w]=(wmCounts[w]||0)+1; });
+  const wmStr = Object.entries(wmCounts).sort((a,b)=>b[1]-a[1]).map(([t,n])=>`${f(t)} ${t} (${n}×)`).join(' · ');
+
+  const hfCounts = {};
+  order.forEach(k => { ((tips[k]||{}).halbfinalisten||[]).forEach(t=>{ hfCounts[t]=(hfCounts[t]||0)+1; }); });
+  const hfStr = Object.entries(hfCounts).sort((a,b)=>b[1]-a[1]).slice(0,6).map(([t,n])=>`${t} (${n}×)`).join(' · ');
+
+  const top = data.topGoalsAgainstTeam;
+  const topCntCon = top ? (data.goalsAgainstByTeam||{})[top] : null;
+  const topConHtml = top ? `${f(top)} <strong style="color:var(--gold)">${top} (${topCntCon} GT)</strong>` : 'Noch keine Daten';
+
+  const topY = data.topYellowCardTeam;
+  const topCntY = topY ? (data.yellowCardsByTeam||{})[topY] : null;
+  const topYHtml = topY ? `${f(topY)} <strong style="color:var(--gold)">${topY} (${topCntY} 🟨)</strong>` : 'Zu wenige Spiele';
+
+  const decided = !!data.worldChampion;
+
+  container.innerHTML = [
+    `<div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
+      <div style="font-weight:600;margin-bottom:6px;">🏆 Weltmeister <span class="pill ${decided?'pill-done':'pill-open'}" style="float:right">${decided?'✅ Entschieden':'Offen'}</span></div>
+      <div style="font-size:0.84em;color:var(--blue);">${data.worldChampion?`<strong style="color:var(--gold)">${f(data.worldChampion)} ${data.worldChampion}</strong>`:'Turnier läuft.'}</div>
+      <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">${wmStr}</div>
+    </div>`,
+    `<div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
+      <div style="font-weight:600;margin-bottom:6px;">🎯 Halbfinalisten <span class="pill pill-open" style="float:right">Offen</span></div>
+      <div style="font-size:0.84em;color:var(--blue);">Gruppenphase läuft (bis ~27. Juni).</div>
+      <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">${hfStr}</div>
+    </div>`,
+    `<div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
+      <div style="font-weight:600;margin-bottom:6px;">🟨 Meiste gelbe Karten <span class="pill pill-open" style="float:right">Offen</span></div>
+      <div style="font-size:0.84em;color:var(--blue);">Aktuell: ${topYHtml}</div>
+      <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">Arg. (5×) · Marokko (2×) · Paraguay, Portugal, Uruguay, Kroatien (1×)</div>
+    </div>`,
+    `<div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
+      <div style="font-weight:600;margin-bottom:6px;">⚽ Tore Deutschland <span class="pill pill-open" style="float:right">Läuft</span></div>
+      <div style="font-size:0.84em;color:var(--gold);">Aktuell: ${data.germanyGoals} Tore (${data.germanyGames}/3 Spiele)</div>
+      <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">Tipps: 6 Tore (4×) · 7 Tore (5×) · 8 Tore (1×)</div>
+    </div>`,
+    `<div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:14px;">
+      <div style="font-weight:600;margin-bottom:6px;">🚨 Meiste Gegentore <span class="pill pill-open" style="float:right">Läuft</span></div>
+      <div style="font-size:0.84em;color:var(--blue);">Aktuell: ${topConHtml}</div>
+      <div style="font-size:0.8em;color:var(--muted);margin-top:6px;">Haiti (3×) · Kap Verde (3×) · Curaçao · Jordanien · Panama · Saudi-Arabien · Neuseeland (1×)</div>
+    </div>`,
+  ].join('');
+}
+
+// ── Bootstrap ──────────────────────────────────────────────────────────────
+(async function init() {
+  try {
+    const resp = await fetch('./data.json?v=' + Date.now());
+    if (!resp.ok) return;
+    const data = await resp.json();
+
+    // Header timestamp
+    const ts = document.getElementById('last-updated');
+    if (ts && data.lastUpdated) ts.textContent = fmtTimestamp(data.lastUpdated);
+
+    // Sections
+    const mc = document.getElementById('matches-container');
+    if (mc) renderMatches(mc, data.matches || []);
+
+    updateGermany(data);
+    updateStatusCells(data);
+
+    const tb = document.getElementById('points-tbody');
+    if (tb) renderPointsTable(tb, data);
+
+    const sc = document.getElementById('quick-status-container');
+    if (sc) renderStatusCards(sc, data);
+
+  } catch(e) {
+    console.warn('data.json fetch failed, showing static content:', e.message);
+  }
+})();
+</script>
 </body>
 </html>
