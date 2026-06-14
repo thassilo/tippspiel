@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T20:39:46.891633+00:00",
+  "lastUpdated": "2026-06-14T22:17:13.227909+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -274,9 +274,9 @@
       "group": "F",
       "homeTeam": "Niederlande",
       "awayTeam": "Japan",
-      "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1417,6 +1417,8 @@
     "Südafrika": 2,
     "Tschechien": 2,
     "Türkei": 2,
+    "Niederlande": 2,
+    "Japan": 2,
     "Südkorea": 1,
     "Kanada": 1,
     "Bosnia-Herzegovina": 1,
