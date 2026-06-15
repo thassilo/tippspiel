@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T19:06:44.367902+00:00",
+  "lastUpdated": "2026-06-15T23:05:59.446971+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -190,8 +190,8 @@
       "group": "B",
       "homeTeam": "Kanada",
       "awayTeam": "Bosnia-Herzegovina",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 1,
       "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
@@ -322,9 +322,9 @@
       "group": "G",
       "homeTeam": "Belgien",
       "awayTeam": "Egypt",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -334,9 +334,9 @@
       "group": "H",
       "homeTeam": "Saudi-Arabien",
       "awayTeam": "Uruguay",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "PAUSED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1421,6 +1421,8 @@
     "Niederlande": 2,
     "Japan": 2,
     "Südkorea": 1,
+    "Kanada": 1,
+    "Bosnia-Herzegovina": 1,
     "USA": 1,
     "Katar": 1,
     "Schweiz": 1,
@@ -1430,6 +1432,8 @@
     "Deutschland": 1,
     "Ecuador": 1,
     "Schweden": 1,
+    "Belgien": 1,
+    "Egypt": 1,
     "Mexiko": 0,
     "Schottland": 0,
     "Australien": 0,
