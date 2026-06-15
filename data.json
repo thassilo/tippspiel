@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T22:17:13.227909+00:00",
+  "lastUpdated": "2026-06-15T04:52:24.248464+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -286,9 +286,9 @@
       "group": "E",
       "homeTeam": "Elfenbeinküste",
       "awayTeam": "Ecuador",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -298,9 +298,9 @@
       "group": "F",
       "homeTeam": "Schweden",
       "awayTeam": "Tunisia",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1413,6 +1413,7 @@
   "yellowCardsByTeam": {},
   "goalsAgainstByTeam": {
     "Curaçao": 7,
+    "Tunisia": 5,
     "Paraguay": 4,
     "Südafrika": 2,
     "Tschechien": 2,
@@ -1429,9 +1430,12 @@
     "Marokko": 1,
     "Haiti": 1,
     "Deutschland": 1,
+    "Ecuador": 1,
+    "Schweden": 1,
     "Mexiko": 0,
     "Schottland": 0,
-    "Australien": 0
+    "Australien": 0,
+    "Elfenbeinküste": 0
   },
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Curaçao",
