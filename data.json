@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T12:26:09.027713+00:00",
+  "lastUpdated": "2026-06-15T19:06:44.367902+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -190,8 +190,8 @@
       "group": "B",
       "homeTeam": "Kanada",
       "awayTeam": "Bosnia-Herzegovina",
-      "homeGoals": 1,
-      "awayGoals": 1,
+      "homeGoals": null,
+      "awayGoals": null,
       "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
@@ -310,9 +310,9 @@
       "group": "H",
       "homeTeam": "Spanien",
       "awayTeam": "Cape Verde Islands",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1421,8 +1421,6 @@
     "Niederlande": 2,
     "Japan": 2,
     "Südkorea": 1,
-    "Kanada": 1,
-    "Bosnia-Herzegovina": 1,
     "USA": 1,
     "Katar": 1,
     "Schweiz": 1,
@@ -1435,7 +1433,9 @@
     "Mexiko": 0,
     "Schottland": 0,
     "Australien": 0,
-    "Elfenbeinküste": 0
+    "Elfenbeinküste": 0,
+    "Spanien": 0,
+    "Cape Verde Islands": 0
   },
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Curaçao",
