@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T23:05:59.446971+00:00",
+  "lastUpdated": "2026-06-16T04:49:59.388696+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -335,8 +335,8 @@
       "homeTeam": "Saudi-Arabien",
       "awayTeam": "Uruguay",
       "homeGoals": 1,
-      "awayGoals": 0,
-      "status": "PAUSED",
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -346,9 +346,9 @@
       "group": "G",
       "homeTeam": "Iran",
       "awayTeam": "Neuseeland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1420,6 +1420,8 @@
     "Türkei": 2,
     "Niederlande": 2,
     "Japan": 2,
+    "Iran": 2,
+    "Neuseeland": 2,
     "Südkorea": 1,
     "Kanada": 1,
     "Bosnia-Herzegovina": 1,
@@ -1434,6 +1436,8 @@
     "Schweden": 1,
     "Belgien": 1,
     "Egypt": 1,
+    "Saudi-Arabien": 1,
+    "Uruguay": 1,
     "Mexiko": 0,
     "Schottland": 0,
     "Australien": 0,
