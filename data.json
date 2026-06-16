@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T17:03:47.647130+00:00",
+  "lastUpdated": "2026-06-16T20:58:10.298420+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -358,9 +358,9 @@
       "group": "I",
       "homeTeam": "Frankreich",
       "awayTeam": "Senegal",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE"
     },
     {
