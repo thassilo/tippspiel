@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T20:32:49.313759+00:00",
+  "lastUpdated": "2026-06-18T22:59:57.932814+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -466,9 +466,9 @@
       "group": "B",
       "homeTeam": "Schweiz",
       "awayTeam": "Bosnia-Herzegovina",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "IN_PLAY",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -478,9 +478,9 @@
       "group": "B",
       "homeTeam": "Kanada",
       "awayTeam": "Katar",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1413,6 +1413,7 @@
   "yellowCardsByTeam": {},
   "goalsAgainstByTeam": {
     "Curaçao": 7,
+    "Bosnia-Herzegovina": 5,
     "Tunisia": 5,
     "Paraguay": 4,
     "Iraq": 4,
@@ -1423,6 +1424,7 @@
     "Algeria": 3,
     "Jordanien": 3,
     "Uzbekistan": 3,
+    "Schweiz": 2,
     "Türkei": 2,
     "Niederlande": 2,
     "Japan": 2,
@@ -1431,10 +1433,8 @@
     "England": 2,
     "Südkorea": 1,
     "Kanada": 1,
-    "Bosnia-Herzegovina": 1,
     "USA": 1,
     "Katar": 1,
-    "Schweiz": 1,
     "Brasilien": 1,
     "Marokko": 1,
     "Haiti": 1,
