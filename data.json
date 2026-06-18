@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T04:24:20.542570+00:00",
+  "lastUpdated": "2026-06-18T10:29:08.869366+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -432,7 +432,7 @@
       "awayTeam": "Panama",
       "homeGoals": 1,
       "awayGoals": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1450,6 +1450,7 @@
     "Österreich": 1,
     "Portugal": 1,
     "Congo DR": 1,
+    "Panama": 1,
     "Kolumbien": 1,
     "Mexiko": 0,
     "Schottland": 0,
@@ -1457,7 +1458,8 @@
     "Elfenbeinküste": 0,
     "Spanien": 0,
     "Cape Verde Islands": 0,
-    "Argentinien": 0
+    "Argentinien": 0,
+    "Ghana": 0
   },
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Curaçao",
