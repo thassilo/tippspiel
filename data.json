@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T15:37:15.099205+00:00",
+  "lastUpdated": "2026-06-18T20:32:49.313759+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -454,9 +454,9 @@
       "group": "A",
       "homeTeam": "Tschechien",
       "awayTeam": "Südafrika",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -468,7 +468,7 @@
       "awayTeam": "Bosnia-Herzegovina",
       "homeGoals": null,
       "awayGoals": null,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1417,12 +1417,12 @@
     "Paraguay": 4,
     "Iraq": 4,
     "Kroatien": 4,
+    "Südafrika": 3,
+    "Tschechien": 3,
     "Senegal": 3,
     "Algeria": 3,
     "Jordanien": 3,
     "Uzbekistan": 3,
-    "Südafrika": 2,
-    "Tschechien": 2,
     "Türkei": 2,
     "Niederlande": 2,
     "Japan": 2,
