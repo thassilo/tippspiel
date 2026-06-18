@@ -95,6 +95,12 @@
 
 <div class="container">
 
+  <!-- ─── HEUTE & MORGEN ─── -->
+  <div class="section" id="upcoming-section">
+    <h2>📅 Heute &amp; Morgen</h2>
+    <div id="upcoming-container" style="color:var(--muted);font-size:0.88em;">Lade Spielplan…</div>
+  </div>
+
   <!-- ─── BISHERIGE ERGEBNISSE ─── -->
   <div class="section">
     <h2>⚽ Bisherige Ergebnisse (Spieltag 1)</h2>
@@ -578,6 +584,86 @@ function renderStatusCards(container, data) {
   ].join('');
 }
 
+// ── Today & tomorrow matches ───────────────────────────────────────────────
+function renderUpcoming(container, matches) {
+  const now = new Date();
+  const tz  = 'Europe/Berlin';
+
+  function berlinDateStr(d) {
+    return d.toLocaleDateString('de-DE', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' });
+  }
+  function berlinTime(iso) {
+    return new Date(iso).toLocaleTimeString('de-DE', { timeZone: tz, hour: '2-digit', minute: '2-digit' });
+  }
+  function berlinWeekday(iso) {
+    return new Date(iso).toLocaleDateString('de-DE', { timeZone: tz, weekday: 'long', day: 'numeric', month: 'long' });
+  }
+
+  const todayStr    = berlinDateStr(now);
+  const tomorrowStr = berlinDateStr(new Date(now.getTime() + 86400000));
+
+  const relevant = matches.filter(m => {
+    const ds = berlinDateStr(new Date(m.utcDate));
+    return ds === todayStr || ds === tomorrowStr;
+  }).sort((a, b) => a.utcDate.localeCompare(b.utcDate));
+
+  if (!relevant.length) {
+    container.innerHTML = '<p style="color:var(--muted)">Heute und morgen sind keine Spiele geplant.</p>';
+    return;
+  }
+
+  // Group by day
+  const byDay = {};
+  relevant.forEach(m => {
+    const ds = berlinDateStr(new Date(m.utcDate));
+    (byDay[ds] = byDay[ds] || []).push(m);
+  });
+
+  const stageLabel = { 'ROUND_OF_32': 'Runde der 32', 'ROUND_OF_16': 'Achtelfinale',
+    'QUARTER_FINALS': 'Viertelfinale', 'SEMI_FINALS': 'Halbfinale',
+    'THIRD_PLACE': 'Spiel um Platz 3', 'FINAL': 'Finale' };
+
+  container.innerHTML = Object.entries(byDay).map(([ds, dayMatches]) => {
+    const label = ds === todayStr ? '🗓️ Heute' : '🗓️ Morgen';
+    const dateHuman = berlinWeekday(dayMatches[0].utcDate);
+    const cards = dayMatches.map(m => {
+      const time    = berlinTime(m.utcDate);
+      const groupTxt = m.stage === 'GROUP_STAGE' ? `Gruppe ${m.group}` : (stageLabel[m.stage] || m.stage);
+      const isLive  = m.status === 'IN_PLAY';
+      const isDone  = m.status === 'FINISHED';
+
+      let scoreHtml;
+      if (isDone) {
+        scoreHtml = `<div class="score">${m.homeGoals} : ${m.awayGoals}</div>`;
+      } else if (isLive) {
+        scoreHtml = `<div class="score" style="color:var(--green);font-size:1.1em">🔴 LIVE</div>`;
+      } else {
+        scoreHtml = `<div class="score" style="color:var(--gold);font-size:1em;font-weight:600">${time} Uhr</div>`;
+      }
+
+      const pillHtml = isDone
+        ? `<span class="pill pill-done">Abgepfiffen</span>`
+        : isLive
+          ? `<span class="pill pill-live">🔴 Live</span>`
+          : `<span class="pill pill-open">⏰ ${time} Uhr</span>`;
+
+      return `<div class="match">
+        <div class="meta"><span>${groupTxt}</span>${pillHtml}</div>
+        <div class="teams">
+          <div class="team">${f(m.homeTeam)} ${m.homeTeam}</div>
+          ${scoreHtml}
+          <div class="team right">${m.awayTeam} ${f(m.awayTeam)}</div>
+        </div>
+      </div>`;
+    }).join('');
+
+    return `<div style="margin-bottom:16px;">
+      <div style="font-size:0.85em;font-weight:600;color:var(--blue);margin-bottom:10px;">${label} – ${dateHuman}</div>
+      <div class="matches">${cards}</div>
+    </div>`;
+  }).join('');
+}
+
 // ── Bootstrap ──────────────────────────────────────────────────────────────
 (async function init() {
   try {
@@ -588,6 +674,10 @@ function renderStatusCards(container, data) {
     // Header timestamp
     const ts = document.getElementById('last-updated');
     if (ts && data.lastUpdated) ts.textContent = fmtTimestamp(data.lastUpdated);
+
+    // Today & tomorrow
+    const uc = document.getElementById('upcoming-container');
+    if (uc) renderUpcoming(uc, data.matches || []);
 
     // Sections
     const mc = document.getElementById('matches-container');
