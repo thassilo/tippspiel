@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T22:59:57.932814+00:00",
+  "lastUpdated": "2026-06-19T04:53:06.315200+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -478,9 +478,9 @@
       "group": "B",
       "homeTeam": "Kanada",
       "awayTeam": "Katar",
-      "homeGoals": 3,
+      "homeGoals": 6,
       "awayGoals": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -490,9 +490,9 @@
       "group": "A",
       "homeTeam": "Mexiko",
       "awayTeam": "Südkorea",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1412,6 +1412,7 @@
   "germanyGames": 1,
   "yellowCardsByTeam": {},
   "goalsAgainstByTeam": {
+    "Katar": 7,
     "Curaçao": 7,
     "Bosnia-Herzegovina": 5,
     "Tunisia": 5,
@@ -1424,6 +1425,7 @@
     "Algeria": 3,
     "Jordanien": 3,
     "Uzbekistan": 3,
+    "Südkorea": 2,
     "Schweiz": 2,
     "Türkei": 2,
     "Niederlande": 2,
@@ -1431,10 +1433,8 @@
     "Iran": 2,
     "Neuseeland": 2,
     "England": 2,
-    "Südkorea": 1,
     "Kanada": 1,
     "USA": 1,
-    "Katar": 1,
     "Brasilien": 1,
     "Marokko": 1,
     "Haiti": 1,
@@ -1462,7 +1462,7 @@
     "Ghana": 0
   },
   "topYellowCardTeam": null,
-  "topGoalsAgainstTeam": "Curaçao",
+  "topGoalsAgainstTeam": "Katar",
   "semifinals": [],
   "worldChampion": null,
   "scores": {
