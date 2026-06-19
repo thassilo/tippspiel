@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T15:32:43.332202+00:00",
+  "lastUpdated": "2026-06-19T19:57:30.190617+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -190,8 +190,8 @@
       "group": "B",
       "homeTeam": "Kanada",
       "awayTeam": "Bosnia-Herzegovina",
-      "homeGoals": 1,
-      "awayGoals": 1,
+      "homeGoals": null,
+      "awayGoals": null,
       "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
@@ -502,9 +502,9 @@
       "group": "D",
       "homeTeam": "USA",
       "awayTeam": "Australien",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1414,11 +1414,11 @@
   "goalsAgainstByTeam": {
     "Katar": 7,
     "Curaçao": 7,
-    "Bosnia-Herzegovina": 5,
     "Tunisia": 5,
     "Paraguay": 4,
     "Iraq": 4,
     "Kroatien": 4,
+    "Bosnia-Herzegovina": 4,
     "Südafrika": 3,
     "Tschechien": 3,
     "Senegal": 3,
@@ -1433,7 +1433,6 @@
     "Iran": 2,
     "Neuseeland": 2,
     "England": 2,
-    "Kanada": 1,
     "USA": 1,
     "Brasilien": 1,
     "Marokko": 1,
@@ -1459,7 +1458,8 @@
     "Spanien": 0,
     "Cape Verde Islands": 0,
     "Argentinien": 0,
-    "Ghana": 0
+    "Ghana": 0,
+    "Kanada": 0
   },
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Katar",
