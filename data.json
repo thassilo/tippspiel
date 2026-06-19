@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T19:57:30.190617+00:00",
+  "lastUpdated": "2026-06-19T22:11:23.766117+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -504,7 +504,7 @@
       "awayTeam": "Australien",
       "homeGoals": 2,
       "awayGoals": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -514,9 +514,9 @@
       "group": "C",
       "homeTeam": "Schottland",
       "awayTeam": "Marokko",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1427,6 +1427,7 @@
     "Uzbekistan": 3,
     "Südkorea": 2,
     "Schweiz": 2,
+    "Australien": 2,
     "Türkei": 2,
     "Niederlande": 2,
     "Japan": 2,
@@ -1453,7 +1454,6 @@
     "Kolumbien": 1,
     "Mexiko": 0,
     "Schottland": 0,
-    "Australien": 0,
     "Elfenbeinküste": 0,
     "Spanien": 0,
     "Cape Verde Islands": 0,
