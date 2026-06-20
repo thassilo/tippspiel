@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T04:07:33.813913+00:00",
+  "lastUpdated": "2026-06-20T09:27:24.691781+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -540,7 +540,7 @@
       "awayTeam": "Paraguay",
       "homeGoals": 0,
       "awayGoals": 1,
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1422,6 +1422,7 @@
     "Kroatien": 4,
     "Südafrika": 3,
     "Tschechien": 3,
+    "Türkei": 3,
     "Senegal": 3,
     "Algeria": 3,
     "Jordanien": 3,
@@ -1429,7 +1430,6 @@
     "Südkorea": 2,
     "Schweiz": 2,
     "Australien": 2,
-    "Türkei": 2,
     "Niederlande": 2,
     "Japan": 2,
     "Iran": 2,
