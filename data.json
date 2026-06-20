@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T19:46:37.930166+00:00",
+  "lastUpdated": "2026-06-20T22:16:47.351792+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -562,9 +562,9 @@
       "group": "E",
       "homeTeam": "Deutschland",
       "awayTeam": "Elfenbeinküste",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1408,8 +1408,8 @@
       "stage": "FINAL"
     }
   ],
-  "germanyGoals": 7,
-  "germanyGames": 1,
+  "germanyGoals": 9,
+  "germanyGames": 2,
   "yellowCardsByTeam": {},
   "goalsAgainstByTeam": {
     "Katar": 7,
@@ -1432,7 +1432,9 @@
     "Südkorea": 2,
     "Schweiz": 2,
     "Australien": 2,
+    "Deutschland": 2,
     "Japan": 2,
+    "Elfenbeinküste": 2,
     "Iran": 2,
     "Neuseeland": 2,
     "England": 2,
@@ -1441,7 +1443,6 @@
     "Brasilien": 1,
     "Marokko": 1,
     "Schottland": 1,
-    "Deutschland": 1,
     "Ecuador": 1,
     "Belgien": 1,
     "Egypt": 1,
@@ -1455,7 +1456,6 @@
     "Panama": 1,
     "Kolumbien": 1,
     "Mexiko": 0,
-    "Elfenbeinküste": 0,
     "Spanien": 0,
     "Cape Verde Islands": 0,
     "Argentinien": 0,
