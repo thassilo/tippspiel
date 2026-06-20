@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T22:11:23.766117+00:00",
+  "lastUpdated": "2026-06-20T04:07:33.813913+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -190,8 +190,8 @@
       "group": "B",
       "homeTeam": "Kanada",
       "awayTeam": "Bosnia-Herzegovina",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 1,
       "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
@@ -515,8 +515,8 @@
       "homeTeam": "Schottland",
       "awayTeam": "Marokko",
       "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -526,9 +526,9 @@
       "group": "C",
       "homeTeam": "Brasilien",
       "awayTeam": "Haiti",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -538,9 +538,9 @@
       "group": "D",
       "homeTeam": "Türkei",
       "awayTeam": "Paraguay",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "status": "PAUSED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1414,11 +1414,12 @@
   "goalsAgainstByTeam": {
     "Katar": 7,
     "Curaçao": 7,
+    "Bosnia-Herzegovina": 5,
     "Tunisia": 5,
     "Paraguay": 4,
+    "Haiti": 4,
     "Iraq": 4,
     "Kroatien": 4,
-    "Bosnia-Herzegovina": 4,
     "Südafrika": 3,
     "Tschechien": 3,
     "Senegal": 3,
@@ -1434,10 +1435,11 @@
     "Iran": 2,
     "Neuseeland": 2,
     "England": 2,
+    "Kanada": 1,
     "USA": 1,
     "Brasilien": 1,
     "Marokko": 1,
-    "Haiti": 1,
+    "Schottland": 1,
     "Deutschland": 1,
     "Ecuador": 1,
     "Schweden": 1,
@@ -1453,13 +1455,11 @@
     "Panama": 1,
     "Kolumbien": 1,
     "Mexiko": 0,
-    "Schottland": 0,
     "Elfenbeinküste": 0,
     "Spanien": 0,
     "Cape Verde Islands": 0,
     "Argentinien": 0,
-    "Ghana": 0,
-    "Kanada": 0
+    "Ghana": 0
   },
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Katar",
