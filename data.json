@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T16:26:17.897641+00:00",
+  "lastUpdated": "2026-06-20T19:46:37.930166+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -550,9 +550,9 @@
       "group": "F",
       "homeTeam": "Niederlande",
       "awayTeam": "Schweden",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1414,6 +1414,7 @@
   "goalsAgainstByTeam": {
     "Katar": 7,
     "Curaçao": 7,
+    "Schweden": 6,
     "Bosnia-Herzegovina": 5,
     "Tunisia": 5,
     "Paraguay": 4,
@@ -1423,6 +1424,7 @@
     "Südafrika": 3,
     "Tschechien": 3,
     "Türkei": 3,
+    "Niederlande": 3,
     "Senegal": 3,
     "Algeria": 3,
     "Jordanien": 3,
@@ -1430,7 +1432,6 @@
     "Südkorea": 2,
     "Schweiz": 2,
     "Australien": 2,
-    "Niederlande": 2,
     "Japan": 2,
     "Iran": 2,
     "Neuseeland": 2,
@@ -1442,7 +1443,6 @@
     "Schottland": 1,
     "Deutschland": 1,
     "Ecuador": 1,
-    "Schweden": 1,
     "Belgien": 1,
     "Egypt": 1,
     "Saudi-Arabien": 1,
