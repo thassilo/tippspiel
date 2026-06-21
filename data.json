@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T22:16:47.351792+00:00",
+  "lastUpdated": "2026-06-21T04:49:13.170877+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -574,9 +574,9 @@
       "group": "E",
       "homeTeam": "Ecuador",
       "awayTeam": "Curaçao",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -586,9 +586,9 @@
       "group": "F",
       "homeTeam": "Tunisia",
       "awayTeam": "Japan",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE"
     },
     {
