@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T14:23:12.666429+00:00",
+  "lastUpdated": "2026-06-21T16:51:07.034817+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -598,9 +598,9 @@
       "group": "H",
       "homeTeam": "Spanien",
       "awayTeam": "Saudi-Arabien",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE"
     },
     {
