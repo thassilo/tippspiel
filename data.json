@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T04:49:13.170877+00:00",
+  "lastUpdated": "2026-06-21T09:59:21.791669+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -587,8 +587,8 @@
       "homeTeam": "Tunisia",
       "awayTeam": "Japan",
       "homeGoals": 0,
-      "awayGoals": 2,
-      "status": "IN_PLAY",
+      "awayGoals": 4,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1412,11 +1412,11 @@
   "germanyGames": 2,
   "yellowCardsByTeam": {},
   "goalsAgainstByTeam": {
+    "Tunisia": 9,
     "Katar": 7,
     "Curaçao": 7,
     "Schweden": 6,
     "Bosnia-Herzegovina": 5,
-    "Tunisia": 5,
     "Paraguay": 4,
     "Haiti": 4,
     "Iraq": 4,
@@ -1462,7 +1462,7 @@
     "Ghana": 0
   },
   "topYellowCardTeam": null,
-  "topGoalsAgainstTeam": "Katar",
+  "topGoalsAgainstTeam": "Tunisia",
   "semifinals": [],
   "worldChampion": null,
   "scores": {
