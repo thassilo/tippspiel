@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T22:21:32.817130+00:00",
+  "lastUpdated": "2026-06-22T04:56:33.985839+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -622,9 +622,9 @@
       "group": "H",
       "homeTeam": "Uruguay",
       "awayTeam": "Cape Verde Islands",
-      "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -634,9 +634,9 @@
       "group": "G",
       "homeTeam": "Neuseeland",
       "awayTeam": "Egypt",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1418,6 +1418,7 @@
     "Schweden": 6,
     "Bosnia-Herzegovina": 5,
     "Saudi-Arabien": 5,
+    "Neuseeland": 5,
     "Paraguay": 4,
     "Haiti": 4,
     "Iraq": 4,
@@ -1426,6 +1427,7 @@
     "Tschechien": 3,
     "Türkei": 3,
     "Niederlande": 3,
+    "Uruguay": 3,
     "Senegal": 3,
     "Algeria": 3,
     "Jordanien": 3,
@@ -1436,8 +1438,9 @@
     "Deutschland": 2,
     "Japan": 2,
     "Elfenbeinküste": 2,
+    "Cape Verde Islands": 2,
+    "Egypt": 2,
     "Iran": 2,
-    "Neuseeland": 2,
     "England": 2,
     "Kanada": 1,
     "USA": 1,
@@ -1446,8 +1449,6 @@
     "Schottland": 1,
     "Ecuador": 1,
     "Belgien": 1,
-    "Egypt": 1,
-    "Uruguay": 1,
     "Frankreich": 1,
     "Norwegen": 1,
     "Österreich": 1,
@@ -1457,7 +1458,6 @@
     "Kolumbien": 1,
     "Mexiko": 0,
     "Spanien": 0,
-    "Cape Verde Islands": 0,
     "Argentinien": 0,
     "Ghana": 0
   },
