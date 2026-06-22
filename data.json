@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T18:54:26.038128+00:00",
+  "lastUpdated": "2026-06-22T22:53:52.428904+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -646,9 +646,9 @@
       "group": "J",
       "homeTeam": "Argentinien",
       "awayTeam": "Österreich",
-      "homeGoals": 1,
+      "homeGoals": 2,
       "awayGoals": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -658,9 +658,9 @@
       "group": "I",
       "homeTeam": "Frankreich",
       "awayTeam": "Iraq",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "PAUSED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1430,6 +1430,7 @@
     "Uruguay": 3,
     "Senegal": 3,
     "Algeria": 3,
+    "Österreich": 3,
     "Jordanien": 3,
     "Uzbekistan": 3,
     "Südkorea": 2,
@@ -1451,7 +1452,6 @@
     "Belgien": 1,
     "Frankreich": 1,
     "Norwegen": 1,
-    "Österreich": 1,
     "Portugal": 1,
     "Congo DR": 1,
     "Panama": 1,
