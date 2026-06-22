@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T12:17:02.700879+00:00",
+  "lastUpdated": "2026-06-22T18:54:26.038128+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -646,9 +646,9 @@
       "group": "J",
       "homeTeam": "Argentinien",
       "awayTeam": "Österreich",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE"
     },
     {
