@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T15:01:47.999785+00:00",
+  "lastUpdated": "2026-06-23T17:25:38.377421+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -694,9 +694,9 @@
       "group": "K",
       "homeTeam": "Portugal",
       "awayTeam": "Uzbekistan",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "GROUP_STAGE"
     },
     {
