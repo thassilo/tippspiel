@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T04:00:20.898090+00:00",
+  "lastUpdated": "2026-06-23T09:54:40.706952+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -683,8 +683,8 @@
       "homeTeam": "Jordanien",
       "awayTeam": "Algeria",
       "homeGoals": 1,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1421,8 +1421,10 @@
     "Bosnia-Herzegovina": 5,
     "Saudi-Arabien": 5,
     "Neuseeland": 5,
+    "Jordanien": 5,
     "Paraguay": 4,
     "Haiti": 4,
+    "Algeria": 4,
     "Kroatien": 4,
     "Südafrika": 3,
     "Tschechien": 3,
@@ -1430,9 +1432,7 @@
     "Niederlande": 3,
     "Uruguay": 3,
     "Norwegen": 3,
-    "Algeria": 3,
     "Österreich": 3,
-    "Jordanien": 3,
     "Uzbekistan": 3,
     "Südkorea": 2,
     "Schweiz": 2,
