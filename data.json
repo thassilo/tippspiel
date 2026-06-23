@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T17:25:38.377421+00:00",
+  "lastUpdated": "2026-06-23T20:15:46.575393+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -694,9 +694,9 @@
       "group": "K",
       "homeTeam": "Portugal",
       "awayTeam": "Uzbekistan",
-      "homeGoals": 1,
+      "homeGoals": 5,
       "awayGoals": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -706,9 +706,9 @@
       "group": "L",
       "homeTeam": "England",
       "awayTeam": "Ghana",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "LIVE",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1413,6 +1413,7 @@
   "yellowCardsByTeam": {},
   "goalsAgainstByTeam": {
     "Tunisia": 9,
+    "Uzbekistan": 8,
     "Katar": 7,
     "Curaçao": 7,
     "Iraq": 7,
@@ -1433,7 +1434,6 @@
     "Uruguay": 3,
     "Norwegen": 3,
     "Österreich": 3,
-    "Uzbekistan": 3,
     "Südkorea": 2,
     "Schweiz": 2,
     "Australien": 2,
