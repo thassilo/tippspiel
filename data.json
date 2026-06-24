@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T22:23:27.428551+00:00",
+  "lastUpdated": "2026-06-24T04:02:39.949931+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -718,9 +718,9 @@
       "group": "L",
       "homeTeam": "Panama",
       "awayTeam": "Kroatien",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -730,9 +730,9 @@
       "group": "K",
       "homeTeam": "Kolumbien",
       "awayTeam": "Congo DR",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "LIVE",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1444,6 +1444,7 @@
     "Egypt": 2,
     "Iran": 2,
     "England": 2,
+    "Panama": 2,
     "Kanada": 1,
     "USA": 1,
     "Brasilien": 1,
@@ -1454,7 +1455,6 @@
     "Frankreich": 1,
     "Portugal": 1,
     "Congo DR": 1,
-    "Panama": 1,
     "Kolumbien": 1,
     "Mexiko": 0,
     "Spanien": 0,
