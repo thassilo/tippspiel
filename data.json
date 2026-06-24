@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T19:57:22.372379+00:00",
+  "lastUpdated": "2026-06-24T22:26:53.211657+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -742,9 +742,9 @@
       "group": "B",
       "homeTeam": "Schweiz",
       "awayTeam": "Kanada",
-      "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -754,9 +754,9 @@
       "group": "B",
       "homeTeam": "Bosnia-Herzegovina",
       "awayTeam": "Katar",
-      "homeGoals": 2,
+      "homeGoals": 3,
       "awayGoals": 1,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -766,9 +766,9 @@
       "group": "C",
       "homeTeam": "Marokko",
       "awayTeam": "Haiti",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "status": "LIVE",
       "stage": "GROUP_STAGE"
     },
     {
@@ -778,9 +778,9 @@
       "group": "C",
       "homeTeam": "Schottland",
       "awayTeam": "Brasilien",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "status": "LIVE",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1412,14 +1412,14 @@
   "germanyGames": 2,
   "yellowCardsByTeam": {},
   "goalsAgainstByTeam": {
+    "Katar": 10,
     "Tunisia": 9,
     "Uzbekistan": 8,
-    "Katar": 7,
     "Curaçao": 7,
     "Iraq": 7,
+    "Bosnia-Herzegovina": 6,
     "Schweden": 6,
     "Senegal": 6,
-    "Bosnia-Herzegovina": 5,
     "Saudi-Arabien": 5,
     "Neuseeland": 5,
     "Jordanien": 5,
@@ -1429,13 +1429,14 @@
     "Kroatien": 4,
     "Südafrika": 3,
     "Tschechien": 3,
+    "Kanada": 3,
+    "Schweiz": 3,
     "Türkei": 3,
     "Niederlande": 3,
     "Uruguay": 3,
     "Norwegen": 3,
     "Österreich": 3,
     "Südkorea": 2,
-    "Schweiz": 2,
     "Australien": 2,
     "Deutschland": 2,
     "Japan": 2,
@@ -1446,7 +1447,6 @@
     "Congo DR": 2,
     "England": 2,
     "Panama": 2,
-    "Kanada": 1,
     "USA": 1,
     "Brasilien": 1,
     "Marokko": 1,
@@ -1462,7 +1462,7 @@
     "Ghana": 0
   },
   "topYellowCardTeam": null,
-  "topGoalsAgainstTeam": "Tunisia",
+  "topGoalsAgainstTeam": "Katar",
   "semifinals": [],
   "worldChampion": null,
   "scores": {
