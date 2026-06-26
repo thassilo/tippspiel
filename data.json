@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T04:10:15.913140+00:00",
+  "lastUpdated": "2026-06-26T09:41:28.574920+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -814,9 +814,9 @@
       "group": "E",
       "homeTeam": "Ecuador",
       "awayTeam": "Deutschland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -826,9 +826,9 @@
       "group": "E",
       "homeTeam": "Curaçao",
       "awayTeam": "Elfenbeinküste",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -838,9 +838,9 @@
       "group": "F",
       "homeTeam": "Tunisia",
       "awayTeam": "Niederlande",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -850,9 +850,9 @@
       "group": "F",
       "homeTeam": "Japan",
       "awayTeam": "Schweden",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -862,9 +862,9 @@
       "group": "D",
       "homeTeam": "Türkei",
       "awayTeam": "USA",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -874,9 +874,9 @@
       "group": "D",
       "homeTeam": "Paraguay",
       "awayTeam": "Australien",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "FINISHED",
       "stage": "GROUP_STAGE"
     },
     {
@@ -1408,25 +1408,29 @@
       "stage": "FINAL"
     }
   ],
-  "germanyGoals": 9,
-  "germanyGames": 2,
+  "germanyGoals": 10,
+  "germanyGames": 3,
   "yellowCardsByTeam": {},
   "goalsAgainstByTeam": {
+    "Tunisia": 12,
     "Katar": 10,
-    "Tunisia": 9,
+    "Curaçao": 9,
     "Haiti": 8,
     "Uzbekistan": 8,
-    "Curaçao": 7,
+    "Schweden": 7,
     "Iraq": 7,
     "Tschechien": 6,
     "Bosnia-Herzegovina": 6,
-    "Schweden": 6,
     "Senegal": 6,
+    "Türkei": 5,
     "Saudi-Arabien": 5,
     "Neuseeland": 5,
     "Jordanien": 5,
+    "USA": 4,
     "Paraguay": 4,
     "Schottland": 4,
+    "Deutschland": 4,
+    "Niederlande": 4,
     "Algeria": 4,
     "Kroatien": 4,
     "Südafrika": 3,
@@ -1434,24 +1438,20 @@
     "Kanada": 3,
     "Schweiz": 3,
     "Marokko": 3,
-    "Türkei": 3,
-    "Niederlande": 3,
+    "Japan": 3,
     "Uruguay": 3,
     "Norwegen": 3,
     "Österreich": 3,
     "Australien": 2,
-    "Deutschland": 2,
-    "Japan": 2,
     "Elfenbeinküste": 2,
+    "Ecuador": 2,
     "Cape Verde Islands": 2,
     "Egypt": 2,
     "Iran": 2,
     "Congo DR": 2,
     "England": 2,
     "Panama": 2,
-    "USA": 1,
     "Brasilien": 1,
-    "Ecuador": 1,
     "Belgien": 1,
     "Frankreich": 1,
     "Portugal": 1,
@@ -1462,7 +1462,7 @@
     "Ghana": 0
   },
   "topYellowCardTeam": null,
-  "topGoalsAgainstTeam": "Katar",
+  "topGoalsAgainstTeam": "Tunisia",
   "semifinals": [],
   "worldChampion": null,
   "scores": {
@@ -1470,7 +1470,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1478,7 +1478,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1486,7 +1486,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1494,7 +1494,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1502,7 +1502,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1510,7 +1510,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1518,7 +1518,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1526,7 +1526,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1534,7 +1534,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1542,7 +1542,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     },
@@ -1550,7 +1550,7 @@
       "weltmeister": null,
       "halbfinalisten": null,
       "gelbeKarten": null,
-      "toreDeutschland": null,
+      "toreDeutschland": 0,
       "gegentore": null,
       "total": 0
     }
