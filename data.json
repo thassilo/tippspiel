@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T17:10:06.552406+00:00",
+  "lastUpdated": "2026-06-26T20:01:50.223683+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -886,9 +886,9 @@
       "group": "I",
       "homeTeam": "Norwegen",
       "awayTeam": "Frankreich",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "status": "LIVE",
       "stage": "GROUP_STAGE"
     },
     {
@@ -898,9 +898,9 @@
       "group": "I",
       "homeTeam": "Senegal",
       "awayTeam": "Iraq",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "LIVE",
       "stage": "GROUP_STAGE"
     },
     {
