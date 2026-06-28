@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T16:23:14.861666+00:00",
+  "lastUpdated": "2026-06-28T19:34:49.001946+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1030,9 +1030,9 @@
       "group": "LAST_32",
       "homeTeam": "Südafrika",
       "awayTeam": "Kanada",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "LAST_32"
     },
     {
