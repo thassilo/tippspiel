@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T19:34:49.001946+00:00",
+  "lastUpdated": "2026-06-28T22:12:51.459014+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1031,8 +1031,8 @@
       "homeTeam": "Südafrika",
       "awayTeam": "Kanada",
       "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "LAST_32"
     },
     {
@@ -1430,6 +1430,7 @@
     "Türkei": 5,
     "Saudi-Arabien": 5,
     "Kroatien": 5,
+    "Südafrika": 4,
     "USA": 4,
     "Paraguay": 4,
     "Schottland": 4,
@@ -1437,7 +1438,6 @@
     "Niederlande": 4,
     "Uruguay": 4,
     "Panama": 4,
-    "Südafrika": 3,
     "Südkorea": 3,
     "Kanada": 3,
     "Schweiz": 3,
