@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T20:11:50.456684+00:00",
+  "lastUpdated": "2026-06-29T22:19:49.155724+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1054,9 +1054,9 @@
       "group": "LAST_32",
       "homeTeam": "Deutschland",
       "awayTeam": "Paraguay",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "IN_PLAY",
       "stage": "LAST_32"
     },
     {
