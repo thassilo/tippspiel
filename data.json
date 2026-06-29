@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T16:01:46.439562+00:00",
+  "lastUpdated": "2026-06-29T20:11:50.456684+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1042,9 +1042,9 @@
       "group": "LAST_32",
       "homeTeam": "Brasilien",
       "awayTeam": "Japan",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "LAST_32"
     },
     {
@@ -1428,6 +1428,7 @@
     "Senegal": 6,
     "Österreich": 6,
     "Türkei": 5,
+    "Japan": 5,
     "Saudi-Arabien": 5,
     "Kroatien": 5,
     "Südafrika": 4,
@@ -1442,10 +1443,10 @@
     "Kanada": 3,
     "Schweiz": 3,
     "Marokko": 3,
-    "Japan": 3,
     "Egypt": 3,
     "Iran": 3,
     "Congo DR": 3,
+    "Brasilien": 2,
     "Australien": 2,
     "Elfenbeinküste": 2,
     "Ecuador": 2,
@@ -1454,7 +1455,6 @@
     "Frankreich": 2,
     "England": 2,
     "Ghana": 2,
-    "Brasilien": 1,
     "Argentinien": 1,
     "Portugal": 1,
     "Kolumbien": 1,
