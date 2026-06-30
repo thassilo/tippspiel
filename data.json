@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:16:08.434978+00:00",
+  "lastUpdated": "2026-06-30T20:11:28.029626+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1078,9 +1078,9 @@
       "group": "LAST_32",
       "homeTeam": "Elfenbeinküste",
       "awayTeam": "Norwegen",
-      "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "LAST_32"
     },
     {
@@ -1422,9 +1422,9 @@
     "Paraguay": 8,
     "Haiti": 8,
     "Niederlande": 8,
+    "Norwegen": 8,
     "Jordanien": 8,
     "Schweden": 7,
-    "Norwegen": 7,
     "Algeria": 7,
     "Tschechien": 6,
     "Bosnia-Herzegovina": 6,
@@ -1438,6 +1438,7 @@
     "Südafrika": 4,
     "USA": 4,
     "Schottland": 4,
+    "Elfenbeinküste": 4,
     "Uruguay": 4,
     "Panama": 4,
     "Südkorea": 3,
@@ -1448,7 +1449,6 @@
     "Congo DR": 3,
     "Brasilien": 2,
     "Australien": 2,
-    "Elfenbeinküste": 2,
     "Ecuador": 2,
     "Cape Verde Islands": 2,
     "Belgien": 2,
