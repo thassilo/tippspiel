@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T20:11:28.029626+00:00",
+  "lastUpdated": "2026-06-30T22:25:38.610388+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1090,9 +1090,9 @@
       "group": "LAST_32",
       "homeTeam": "Frankreich",
       "awayTeam": "Schweden",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "LAST_32"
     },
     {
