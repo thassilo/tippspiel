@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T22:25:38.610388+00:00",
+  "lastUpdated": "2026-07-01T04:23:27.790442+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1090,9 +1090,9 @@
       "group": "LAST_32",
       "homeTeam": "Frankreich",
       "awayTeam": "Schweden",
-      "homeGoals": 2,
+      "homeGoals": 3,
       "awayGoals": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32"
     },
     {
@@ -1102,9 +1102,9 @@
       "group": "LAST_32",
       "homeTeam": "Mexiko",
       "awayTeam": "Ecuador",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "FINISHED",
       "stage": "LAST_32"
     },
     {
@@ -1416,6 +1416,7 @@
     "Iraq": 12,
     "Uzbekistan": 11,
     "Katar": 10,
+    "Schweden": 10,
     "Neuseeland": 10,
     "Deutschland": 9,
     "Curaçao": 9,
@@ -1424,7 +1425,6 @@
     "Niederlande": 8,
     "Norwegen": 8,
     "Jordanien": 8,
-    "Schweden": 7,
     "Algeria": 7,
     "Tschechien": 6,
     "Bosnia-Herzegovina": 6,
@@ -1439,6 +1439,7 @@
     "USA": 4,
     "Schottland": 4,
     "Elfenbeinküste": 4,
+    "Ecuador": 4,
     "Uruguay": 4,
     "Panama": 4,
     "Südkorea": 3,
@@ -1449,7 +1450,6 @@
     "Congo DR": 3,
     "Brasilien": 2,
     "Australien": 2,
-    "Ecuador": 2,
     "Cape Verde Islands": 2,
     "Belgien": 2,
     "Frankreich": 2,
