@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T17:28:23.722772+00:00",
+  "lastUpdated": "2026-07-01T20:09:18.691333+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1114,9 +1114,9 @@
       "group": "LAST_32",
       "homeTeam": "England",
       "awayTeam": "Congo DR",
-      "homeGoals": 0,
+      "homeGoals": 2,
       "awayGoals": 1,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32"
     },
     {
@@ -1434,6 +1434,7 @@
     "Türkei": 5,
     "Japan": 5,
     "Saudi-Arabien": 5,
+    "Congo DR": 5,
     "Kroatien": 5,
     "Südafrika": 4,
     "USA": 4,
@@ -1447,13 +1448,12 @@
     "Schweiz": 3,
     "Egypt": 3,
     "Iran": 3,
-    "Congo DR": 3,
+    "England": 3,
     "Brasilien": 2,
     "Australien": 2,
     "Cape Verde Islands": 2,
     "Belgien": 2,
     "Frankreich": 2,
-    "England": 2,
     "Ghana": 2,
     "Argentinien": 1,
     "Portugal": 1,
