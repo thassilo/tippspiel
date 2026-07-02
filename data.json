@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T04:03:51.883399+00:00",
+  "lastUpdated": "2026-07-02T09:27:02.232795+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1256,8 +1256,8 @@
       "date": "2026-07-06",
       "utcDate": "2026-07-06T00:00:00Z",
       "group": "LAST_16",
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "Mexiko",
+      "awayTeam": "England",
       "homeGoals": null,
       "awayGoals": null,
       "status": "TIMED",
@@ -1280,8 +1280,8 @@
       "date": "2026-07-07",
       "utcDate": "2026-07-07T00:00:00Z",
       "group": "LAST_16",
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "USA",
+      "awayTeam": "Belgien",
       "homeGoals": null,
       "awayGoals": null,
       "status": "TIMED",
