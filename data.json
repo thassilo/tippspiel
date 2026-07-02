@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T22:28:26.943405+00:00",
+  "lastUpdated": "2026-07-02T04:03:51.883399+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1098,7 +1098,7 @@
     {
       "id": 537425,
       "date": "2026-07-01",
-      "utcDate": "2026-07-01T01:00:00Z",
+      "utcDate": "2026-07-01T02:00:00Z",
       "group": "LAST_32",
       "homeTeam": "Mexiko",
       "awayTeam": "Ecuador",
@@ -1126,9 +1126,9 @@
       "group": "LAST_32",
       "homeTeam": "Belgien",
       "awayTeam": "Senegal",
-      "homeGoals": 2,
+      "homeGoals": 3,
       "awayGoals": 2,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32"
     },
     {
@@ -1138,9 +1138,9 @@
       "group": "LAST_32",
       "homeTeam": "USA",
       "awayTeam": "Bosnia-Herzegovina",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "FINISHED",
       "stage": "LAST_32"
     },
     {
@@ -1420,6 +1420,8 @@
     "Neuseeland": 10,
     "Deutschland": 9,
     "Curaçao": 9,
+    "Senegal": 9,
+    "Bosnia-Herzegovina": 8,
     "Paraguay": 8,
     "Haiti": 8,
     "Niederlande": 8,
@@ -1427,9 +1429,7 @@
     "Jordanien": 8,
     "Algeria": 7,
     "Tschechien": 6,
-    "Bosnia-Herzegovina": 6,
     "Marokko": 6,
-    "Senegal": 6,
     "Österreich": 6,
     "Türkei": 5,
     "Japan": 5,
@@ -1441,6 +1441,7 @@
     "Schottland": 4,
     "Elfenbeinküste": 4,
     "Ecuador": 4,
+    "Belgien": 4,
     "Uruguay": 4,
     "Panama": 4,
     "Südkorea": 3,
@@ -1452,7 +1453,6 @@
     "Brasilien": 2,
     "Australien": 2,
     "Cape Verde Islands": 2,
-    "Belgien": 2,
     "Frankreich": 2,
     "Ghana": 2,
     "Argentinien": 1,
