@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T16:45:43.364818+00:00",
+  "lastUpdated": "2026-07-03T19:42:56.626325+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1186,9 +1186,9 @@
       "group": "LAST_32",
       "homeTeam": "Australien",
       "awayTeam": "Egypt",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "IN_PLAY",
       "stage": "LAST_32"
     },
     {
