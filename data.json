@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T03:46:20.425422+00:00",
+  "lastUpdated": "2026-07-03T09:32:52.031409+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1174,9 +1174,9 @@
       "group": "LAST_32",
       "homeTeam": "Schweiz",
       "awayTeam": "Algeria",
-      "homeGoals": 1,
+      "homeGoals": 2,
       "awayGoals": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32"
     },
     {
@@ -1421,6 +1421,7 @@
     "Deutschland": 9,
     "Curaçao": 9,
     "Senegal": 9,
+    "Algeria": 9,
     "Österreich": 9,
     "Bosnia-Herzegovina": 8,
     "Paraguay": 8,
@@ -1428,7 +1429,6 @@
     "Niederlande": 8,
     "Norwegen": 8,
     "Jordanien": 8,
-    "Algeria": 7,
     "Kroatien": 7,
     "Tschechien": 6,
     "Marokko": 6,
