@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T16:14:42.698053+00:00",
+  "lastUpdated": "2026-07-04T19:27:58.949292+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1222,9 +1222,9 @@
       "group": "LAST_16",
       "homeTeam": "Kanada",
       "awayTeam": "Marokko",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "status": "FINISHED",
       "stage": "LAST_16"
     },
     {
@@ -1432,6 +1432,7 @@
     "Australien": 7,
     "Kroatien": 7,
     "Tschechien": 6,
+    "Kanada": 6,
     "Marokko": 6,
     "Egypt": 6,
     "Türkei": 5,
@@ -1448,7 +1449,6 @@
     "Uruguay": 4,
     "Panama": 4,
     "Südkorea": 3,
-    "Kanada": 3,
     "Schweiz": 3,
     "Iran": 3,
     "Argentinien": 3,
