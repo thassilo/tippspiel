@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T03:57:26.596786+00:00",
+  "lastUpdated": "2026-07-05T09:06:13.470929+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1316,8 +1316,8 @@
       "date": "2026-07-09",
       "utcDate": "2026-07-09T20:00:00Z",
       "group": "Viertelfinale",
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "Frankreich",
+      "awayTeam": "Marokko",
       "homeGoals": null,
       "awayGoals": null,
       "status": "TIMED",
