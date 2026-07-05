@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T22:09:49.510478+00:00",
+  "lastUpdated": "2026-07-05T03:57:26.596786+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1235,8 +1235,8 @@
       "homeTeam": "Paraguay",
       "awayTeam": "Frankreich",
       "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "PAUSED",
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "LAST_16"
     },
     {
@@ -1418,13 +1418,13 @@
     "Katar": 10,
     "Schweden": 10,
     "Neuseeland": 10,
+    "Paraguay": 9,
     "Deutschland": 9,
     "Curaçao": 9,
     "Senegal": 9,
     "Algeria": 9,
     "Österreich": 9,
     "Bosnia-Herzegovina": 8,
-    "Paraguay": 8,
     "Haiti": 8,
     "Niederlande": 8,
     "Norwegen": 8,
