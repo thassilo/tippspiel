@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T19:31:37.737712+00:00",
+  "lastUpdated": "2026-07-05T22:12:34.179593+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1246,9 +1246,9 @@
       "group": "LAST_16",
       "homeTeam": "Brasilien",
       "awayTeam": "Norwegen",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "status": "LIVE",
       "stage": "LAST_16"
     },
     {
