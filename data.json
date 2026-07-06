@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T15:49:14.657110+00:00",
+  "lastUpdated": "2026-07-06T20:10:59.751418+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1270,9 +1270,9 @@
       "group": "LAST_16",
       "homeTeam": "Portugal",
       "awayTeam": "Spanien",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "PAUSED",
       "stage": "LAST_16"
     },
     {
