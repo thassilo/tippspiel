@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T04:04:52.418769+00:00",
+  "lastUpdated": "2026-07-06T10:52:57.123444+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1340,8 +1340,8 @@
       "date": "2026-07-11",
       "utcDate": "2026-07-11T21:00:00Z",
       "group": "Viertelfinale",
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "Norwegen",
+      "awayTeam": "England",
       "homeGoals": null,
       "awayGoals": null,
       "status": "TIMED",
