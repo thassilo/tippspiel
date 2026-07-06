@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T20:10:59.751418+00:00",
+  "lastUpdated": "2026-07-06T22:24:30.555156+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1271,8 +1271,8 @@
       "homeTeam": "Portugal",
       "awayTeam": "Spanien",
       "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "PAUSED",
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "LAST_16"
     },
     {
@@ -1455,9 +1455,9 @@
     "Schweiz": 3,
     "Iran": 3,
     "Argentinien": 3,
+    "Portugal": 3,
     "Ghana": 3,
     "Frankreich": 2,
-    "Portugal": 2,
     "Kolumbien": 1,
     "Spanien": 0
   },
