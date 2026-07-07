@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T03:55:23.461886+00:00",
+  "lastUpdated": "2026-07-07T09:57:31.451507+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1328,8 +1328,8 @@
       "date": "2026-07-10",
       "utcDate": "2026-07-10T19:00:00Z",
       "group": "Viertelfinale",
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "Spanien",
+      "awayTeam": "Belgien",
       "homeGoals": null,
       "awayGoals": null,
       "status": "TIMED",
