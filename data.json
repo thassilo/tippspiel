@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T22:21:10.512098+00:00",
+  "lastUpdated": "2026-07-08T03:23:38.059133+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1306,8 +1306,8 @@
       "group": "LAST_16",
       "homeTeam": "Schweiz",
       "awayTeam": "Kolumbien",
-      "homeGoals": 0,
-      "awayGoals": 0,
+      "homeGoals": 4,
+      "awayGoals": 3,
       "status": "FINISHED",
       "stage": "LAST_16"
     },
@@ -1435,6 +1435,7 @@
     "Kroatien": 7,
     "Tschechien": 6,
     "Kanada": 6,
+    "Schweiz": 6,
     "Marokko": 6,
     "Türkei": 5,
     "Japan": 5,
@@ -1444,6 +1445,7 @@
     "Argentinien": 5,
     "Congo DR": 5,
     "England": 5,
+    "Kolumbien": 5,
     "Südafrika": 4,
     "Brasilien": 4,
     "Schottland": 4,
@@ -1453,12 +1455,10 @@
     "Panama": 4,
     "Mexiko": 3,
     "Südkorea": 3,
-    "Schweiz": 3,
     "Iran": 3,
     "Portugal": 3,
     "Ghana": 3,
     "Frankreich": 2,
-    "Kolumbien": 1,
     "Spanien": 0
   },
   "topYellowCardTeam": null,
