@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T19:46:17.980891+00:00",
+  "lastUpdated": "2026-07-10T22:16:14.938231+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1330,9 +1330,9 @@
       "group": "Viertelfinale",
       "homeTeam": "Spanien",
       "awayTeam": "Belgien",
-      "homeGoals": 1,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FINISHED",
       "stage": "QUARTER_FINALS"
     },
     {
@@ -1433,6 +1433,7 @@
     "Niederlande": 8,
     "Jordanien": 8,
     "Australien": 7,
+    "Belgien": 7,
     "Kroatien": 7,
     "Tschechien": 6,
     "Kanada": 6,
@@ -1440,7 +1441,6 @@
     "Türkei": 5,
     "Japan": 5,
     "Cape Verde Islands": 5,
-    "Belgien": 5,
     "Saudi-Arabien": 5,
     "Argentinien": 5,
     "Congo DR": 5,
@@ -1459,7 +1459,7 @@
     "Portugal": 3,
     "Ghana": 3,
     "Frankreich": 2,
-    "Spanien": 0
+    "Spanien": 1
   },
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Tunisia",
