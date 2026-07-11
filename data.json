@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T19:17:47.297181+00:00",
+  "lastUpdated": "2026-07-11T22:01:47.905872+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1260,7 +1260,7 @@
       "awayTeam": "England",
       "homeGoals": 2,
       "awayGoals": 3,
-      "status": "FINISHED",
+      "status": "2026-07-06 01:00:00Z",
       "stage": "LAST_16"
     },
     {
@@ -1342,9 +1342,9 @@
       "group": "Viertelfinale",
       "homeTeam": "Norwegen",
       "awayTeam": "England",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "IN_PLAY",
       "stage": "QUARTER_FINALS"
     },
     {
@@ -1444,7 +1444,6 @@
     "Saudi-Arabien": 5,
     "Argentinien": 5,
     "Congo DR": 5,
-    "England": 5,
     "Kolumbien": 5,
     "Südafrika": 4,
     "Brasilien": 4,
@@ -1453,13 +1452,14 @@
     "Ecuador": 4,
     "Uruguay": 4,
     "Panama": 4,
-    "Mexiko": 3,
     "Südkorea": 3,
     "Iran": 3,
     "Portugal": 3,
+    "England": 3,
     "Ghana": 3,
     "Frankreich": 2,
-    "Spanien": 1
+    "Spanien": 1,
+    "Mexiko": 0
   },
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Tunisia",
