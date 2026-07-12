@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T08:31:24.369313+00:00",
+  "lastUpdated": "2026-07-12T10:00:00+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1463,96 +1463,101 @@
   },
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Tunisia",
-  "semifinals": [],
+  "semifinals": [
+    "Frankreich",
+    "Spanien",
+    "England",
+    "Argentinien"
+  ],
   "worldChampion": null,
   "scores": {
     "FlorianH": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 5,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 5
     },
     "FlorianP": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 2,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 2
     },
     "Manuel": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 2,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 2
     },
     "Benjamin": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 2,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 2
     },
     "Christian": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 3,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 3
     },
     "Thaddaeus": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 2,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 2
     },
     "Sebastian": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 2,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 2
     },
     "Peter": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 2,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 2
     },
     "Thassilo": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 3,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 3
     },
     "David": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 5,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 5
     },
     "Max": {
       "weltmeister": null,
-      "halbfinalisten": null,
+      "halbfinalisten": 3,
       "gelbeKarten": null,
       "toreDeutschland": 0,
       "gegentore": null,
-      "total": 0
+      "total": 3
     }
   }
 }
