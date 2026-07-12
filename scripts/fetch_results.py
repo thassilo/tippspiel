@@ -66,7 +66,7 @@ STAGE_DE = {
     "FINAL": "Finale",
 }
 
-# ── Player tips (hardcoded from the tipping PDF) ──────────────────────────────
+# ── Player tips (hardcoded from the tipping PDF) ────────────────────────────────────────────
 
 PLAYER_TIPS = {
     "FlorianH": {
@@ -165,7 +165,7 @@ PLAYER_ORDER = [
 ]
 
 
-# ── API helpers ───────────────────────────────────────────────────────────────
+# ── API helpers ────────────────────────────────────────────────────────────────────────────
 
 def api_get(path, params=None):
     url = f"{BASE_URL}{path}"
@@ -182,7 +182,7 @@ def de(name):
     return TEAM_DE.get(name, name)
 
 
-# ── Data fetching ─────────────────────────────────────────────────────────────
+# ── Data fetching ───────────────────────────────────────────────────────────────────────────
 
 def fetch_all_matches():
     data = api_get(f"/competitions/{COMPETITION}/matches", {"season": SEASON})
@@ -216,7 +216,7 @@ def format_match(m):
     }
 
 
-# ── Statistics ────────────────────────────────────────────────────────────────
+# ── Statistics ────────────────────────────────────────────────────────────────────────────
 
 def aggregate(matches):
     germany_goals = 0
@@ -236,6 +236,11 @@ def aggregate(matches):
         home = de(m.get("homeTeam", {}).get("name", ""))
         away = de(m.get("awayTeam", {}).get("name", ""))
 
+        # Collect semi-final participants as soon as teams are known (may be TIMED)
+        if stage == "SEMI_FINALS" and home and away:
+            semifinalists.append(home)
+            semifinalists.append(away)
+
         if status != "FINISHED":
             continue
 
@@ -253,13 +258,6 @@ def aggregate(matches):
                 germany_goals += ag or 0
                 germany_games += 1
             finished_group_ids.append(m.get("id"))
-
-        # Semifinalists
-        if stage == "SEMI_FINALS" and hg is not None and ag is not None:
-            if hg > ag:
-                semifinalists.append(home)
-            elif ag > hg:
-                semifinalists.append(away)
 
         # World champion
         if stage == "FINAL" and hg is not None and ag is not None:
@@ -294,7 +292,7 @@ def aggregate(matches):
     }
 
 
-# ── Points calculation ────────────────────────────────────────────────────────
+# ── Points calculation ──────────────────────────────────────────────────────────────────────────
 
 def calc_scores(stats):
     world_champion = stats["worldChampion"]
@@ -362,7 +360,7 @@ def calc_scores(stats):
     return scores
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# ── Main ──────────────────────────────────────────────────────────────────────────────────
 
 def main():
     if not API_KEY:
