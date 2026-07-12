@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T22:01:47.905872+00:00",
+  "lastUpdated": "2026-07-12T03:28:16.135621+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1343,8 +1343,8 @@
       "homeTeam": "Norwegen",
       "awayTeam": "England",
       "homeGoals": 1,
-      "awayGoals": 1,
-      "status": "IN_PLAY",
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "QUARTER_FINALS"
     },
     {
@@ -1354,9 +1354,9 @@
       "group": "Viertelfinale",
       "homeTeam": "Argentinien",
       "awayTeam": "Schweiz",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "PAUSED",
       "stage": "QUARTER_FINALS"
     },
     {
@@ -1414,6 +1414,7 @@
   "goalsAgainstByTeam": {
     "Tunisia": 12,
     "Iraq": 12,
+    "Norwegen": 11,
     "Uzbekistan": 11,
     "Katar": 10,
     "Schweden": 10,
@@ -1423,7 +1424,6 @@
     "Curaçao": 9,
     "Egypt": 9,
     "Senegal": 9,
-    "Norwegen": 9,
     "Algeria": 9,
     "Österreich": 9,
     "Bosnia-Herzegovina": 8,
@@ -1451,11 +1451,11 @@
     "Elfenbeinküste": 4,
     "Ecuador": 4,
     "Uruguay": 4,
+    "England": 4,
     "Panama": 4,
     "Südkorea": 3,
     "Iran": 3,
     "Portugal": 3,
-    "England": 3,
     "Ghana": 3,
     "Frankreich": 2,
     "Spanien": 1,
