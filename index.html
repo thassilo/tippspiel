@@ -508,10 +508,13 @@ function renderPointsTable(tbody, data) {
     const s = scores[key] || {};
     const name = (tips[key] || {}).name || key;
     const total = s.total || 0;
+    // Standard competition ranking: same score → same rank
+    const rank = total > 0 ? sorted.findIndex(k => (scores[k]||{}).total === total) + 1 : null;
     let rankHtml = '<span style="display:inline-block;width:27px;margin-right:5px;"></span>';
-    if (i === 0 && total > 0) rankHtml = '<span class="rank rank-1">1</span>';
-    else if (i === 1 && total > 0) rankHtml = '<span class="rank rank-2">2</span>';
-    else if (i === 2 && total > 0) rankHtml = '<span class="rank rank-3">3</span>';
+    if (rank === 1) rankHtml = '<span class="rank rank-1">1</span>';
+    else if (rank === 2) rankHtml = '<span class="rank rank-2">2</span>';
+    else if (rank === 3) rankHtml = '<span class="rank rank-3">3</span>';
+    else if (rank !== null) rankHtml = `<span style="display:inline-block;width:22px;height:22px;border-radius:50%;font-size:0.78em;font-weight:700;line-height:22px;text-align:center;margin-right:5px;background:var(--bg3);color:var(--muted)">${rank}</span>`;
 
     return `<tr>
       <td>${rankHtml}${name}</td>
