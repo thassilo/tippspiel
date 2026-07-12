@@ -236,6 +236,11 @@ def aggregate(matches):
         home = de(m.get("homeTeam", {}).get("name", ""))
         away = de(m.get("awayTeam", {}).get("name", ""))
 
+        # Collect semi-final participants as soon as teams are known (may be TIMED)
+        if stage == "SEMI_FINALS" and home and away:
+            semifinalists.append(home)
+            semifinalists.append(away)
+
         if status != "FINISHED":
             continue
 
@@ -253,13 +258,6 @@ def aggregate(matches):
                 germany_goals += ag or 0
                 germany_games += 1
             finished_group_ids.append(m.get("id"))
-
-        # Semifinalists
-        if stage == "SEMI_FINALS" and hg is not None and ag is not None:
-            if hg > ag:
-                semifinalists.append(home)
-            elif ag > hg:
-                semifinalists.append(away)
 
         # World champion
         if stage == "FINAL" and hg is not None and ag is not None:
