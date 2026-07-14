@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T19:32:55.067959+00:00",
+  "lastUpdated": "2026-07-14T22:09:51.552795+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1367,8 +1367,8 @@
       "homeTeam": "Frankreich",
       "awayTeam": "Spanien",
       "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "SEMI_FINALS"
     },
     {
@@ -1452,22 +1452,22 @@
     "Elfenbeinküste": 4,
     "Ecuador": 4,
     "Uruguay": 4,
+    "Frankreich": 4,
     "Panama": 4,
     "Mexiko": 3,
     "Südkorea": 3,
     "Iran": 3,
     "Portugal": 3,
     "Ghana": 3,
-    "Frankreich": 2,
     "Spanien": 1
   },
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Tunisia",
   "semifinals": [
-    "Spanien",
     "Argentinien",
-    "England",
-    "Frankreich"
+    "Spanien",
+    "Frankreich",
+    "England"
   ],
   "worldChampion": null,
   "scores": {
