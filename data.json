@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T16:27:05.053253+00:00",
+  "lastUpdated": "2026-07-14T19:32:55.067959+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1366,9 +1366,9 @@
       "group": "Halbfinale",
       "homeTeam": "Frankreich",
       "awayTeam": "Spanien",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "SEMI_FINALS"
     },
     {
