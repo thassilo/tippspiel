@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T19:25:08.702941+00:00",
+  "lastUpdated": "2026-07-15T22:12:34.739574+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1378,9 +1378,9 @@
       "group": "Halbfinale",
       "homeTeam": "England",
       "awayTeam": "Argentinien",
-      "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "IN_PLAY",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "status": "FINISHED",
       "stage": "SEMI_FINALS"
     },
     {
@@ -1433,13 +1433,13 @@
     "Haiti": 8,
     "Niederlande": 8,
     "Jordanien": 8,
+    "England": 8,
     "Australien": 7,
     "Belgien": 7,
+    "Argentinien": 7,
     "Kroatien": 7,
     "Tschechien": 6,
     "Kanada": 6,
-    "Argentinien": 6,
-    "England": 6,
     "Türkei": 5,
     "Japan": 5,
     "Cape Verde Islands": 5,
@@ -1464,10 +1464,10 @@
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Tunisia",
   "semifinals": [
-    "England",
     "Argentinien",
-    "Frankreich",
-    "Spanien"
+    "Spanien",
+    "England",
+    "Frankreich"
   ],
   "worldChampion": null,
   "scores": {
