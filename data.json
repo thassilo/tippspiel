@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T16:34:22.262048+00:00",
+  "lastUpdated": "2026-07-15T19:25:08.702941+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1378,9 +1378,9 @@
       "group": "Halbfinale",
       "homeTeam": "England",
       "awayTeam": "Argentinien",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "IN_PLAY",
       "stage": "SEMI_FINALS"
     },
     {
@@ -1465,9 +1465,9 @@
   "topGoalsAgainstTeam": "Tunisia",
   "semifinals": [
     "England",
-    "Spanien",
+    "Argentinien",
     "Frankreich",
-    "Argentinien"
+    "Spanien"
   ],
   "worldChampion": null,
   "scores": {
