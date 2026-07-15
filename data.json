@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T05:44:22.933927+00:00",
+  "lastUpdated": "2026-07-15T08:28:48.063906+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1388,7 +1388,7 @@
       "date": "2026-07-18",
       "utcDate": "2026-07-18T21:00:00Z",
       "group": "Spiel um Platz 3",
-      "homeTeam": null,
+      "homeTeam": "Frankreich",
       "awayTeam": null,
       "homeGoals": null,
       "awayGoals": null,
@@ -1400,7 +1400,7 @@
       "date": "2026-07-19",
       "utcDate": "2026-07-19T19:00:00Z",
       "group": "Finale",
-      "homeTeam": null,
+      "homeTeam": "Spanien",
       "awayTeam": null,
       "homeGoals": null,
       "awayGoals": null,
@@ -1464,10 +1464,10 @@
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Tunisia",
   "semifinals": [
-    "Spanien",
     "England",
-    "Argentinien",
-    "Frankreich"
+    "Spanien",
+    "Frankreich",
+    "Argentinien"
   ],
   "worldChampion": null,
   "scores": {
