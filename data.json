@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T19:18:15.969634+00:00",
+  "lastUpdated": "2026-07-18T22:02:45.730315+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1390,9 +1390,9 @@
       "group": "Spiel um Platz 3",
       "homeTeam": "Frankreich",
       "awayTeam": "England",
-      "homeGoals": null,
-      "awayGoals": null,
-      "status": "TIMED",
+      "homeGoals": 0,
+      "awayGoals": 4,
+      "status": "IN_PLAY",
       "stage": "THIRD_PLACE"
     },
     {
@@ -1464,10 +1464,10 @@
   "topYellowCardTeam": null,
   "topGoalsAgainstTeam": "Tunisia",
   "semifinals": [
-    "England",
     "Spanien",
-    "Frankreich",
-    "Argentinien"
+    "England",
+    "Argentinien",
+    "Frankreich"
   ],
   "worldChampion": null,
   "scores": {
