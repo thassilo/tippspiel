@@ -144,7 +144,7 @@
 <body>
 <header>
   <h1><span class="bounce">🏆</span> WM-Tippspiel 2026</h1>
-  <div class="subtitle">Canada &bull; Mexico &bull; USA &nbsp;|&nbsp; Endspurt: Halbfinale &amp; Finale <span class="wiggle">⚽</span></div>
+  <div class="subtitle" id="subtitle">Canada &bull; Mexico &bull; USA &nbsp;|&nbsp; Endspurt: Halbfinale &amp; Finale <span class="wiggle">⚽</span></div>
   <div class="updated">Stand: <span id="last-updated">–</span></div>
   <div class="countdown-box" id="countdown-box">
     <span class="label">🎉 Finale in</span>
@@ -186,7 +186,7 @@
           <tr><td colspan="7" style="text-align:center;color:var(--muted);">Lade Punktestand…</td></tr>
         </tbody>
         <tfoot>
-          <tr><td colspan="7">Halbfinale: 14.–15. Juli &nbsp;|&nbsp; Spiel um Platz 3: 18. Juli &nbsp;|&nbsp; Finale: 19. Juli 2026</td></tr>
+          <tr><td colspan="7">WM 2026 &bull; 11. Juni – 19. Juli &nbsp;|&nbsp; Kartenwertung laut offizieller Fairplay-Statistik</td></tr>
         </tfoot>
       </table>
     </div>
@@ -194,7 +194,7 @@
 
   <!-- ─── PROGNOSE ─── -->
   <div class="section">
-    <h2>🔮 Prognose: Wer gewinnt das Tippspiel?</h2>
+    <h2 id="prognose-heading">🔮 Prognose: Wer gewinnt das Tippspiel?</h2>
     <p style="color:var(--blue);font-size:0.88em;margin-bottom:16px;" id="prognose-intro">
       Was passiert mit der Tabelle, je nachdem wer Weltmeister wird? (+5 Punkte für den richtigen Tipp)
     </p>
@@ -357,7 +357,7 @@ const FLAGS = {
   "Nigeria":"🇳🇬","Kolumbien":"🇨🇴","Chile":"🇨🇱","Peru":"🇵🇪",
   "Iran":"🇮🇷","Serbien":"🇷🇸","Polen":"🇵🇱","Belgien":"🇧🇪",
   "Rumänien":"🇷🇴","Österreich":"🇦🇹","Dänemark":"🇩🇰","Schweden":"🇸🇪",
-  "Norwegen":"🇳🇴","Tunesien":"🇹🇳","Irak":"🇮🇶","Usbekistan":"🇺🇿",
+  "Norwegen":"🇳🇴","Tunesien":"🇹🇳","Irak":"🇮🇶","Usbekistan":"🇺🇿","Ägypten":"🇪🇬",
 };
 
 // Fix names the backend doesn't translate yet
@@ -522,10 +522,42 @@ function renderPrognose(data) {
   const sf = data.semifinals || [];
 
   if (data.worldChampion) {
-    container.innerHTML = `<div class="scenario" style="grid-column:1/-1;text-align:center;">
-      <div class="head">🎉 ${f(data.worldChampion)} ${deName(data.worldChampion)} ist Weltmeister!</div>
-      <div class="sub">Die Endabrechnung steht in der Punktetabelle.</div>
-    </div>`;
+    // Tournament over → replace the forecast with the final celebration
+    const champ = deName(data.worldChampion);
+    const ranking = order.map(k => ({ name: (tips[k]||{}).name || k, total: (scores[k]||{}).total || 0 }))
+      .sort((a,b) => b.total - a.total);
+    const top = ranking[0].total;
+    const winners = ranking.filter(p => p.total === top);
+    const medal = ['🥇','🥈','🥉'];
+
+    const heading = document.getElementById('prognose-heading');
+    if (heading) heading.textContent = '🏆 Endstand: Das Tippspiel ist entschieden!';
+    const intro = document.getElementById('prognose-intro');
+    if (intro) intro.innerHTML = `${f(champ)} <strong style="color:var(--gold)">${champ}</strong> ist Weltmeister 2026 – damit sind alle Kategorien gewertet.`;
+    const note = document.getElementById('prognose-note');
+    if (note) note.innerHTML = `🟨 Die Kartenwertung ging an <strong>Argentinien (14 gelbe Karten)</strong> – 5 davon im Finale!
+      &nbsp;🚨 Bei den Gegentoren (Tunesien, Irak &amp; England je 12) hatte niemand das richtige Team – 0 Punkte für alle.
+      &nbsp;💰 Danke fürs Mitspielen – bis zur EM 2028!`;
+
+    container.innerHTML = `
+      <div class="scenario" style="grid-column:1/-1;text-align:center;padding:28px;border-color:var(--gold);animation:glow 2.6s ease-in-out infinite;">
+        <div style="font-size:1.6em;margin-bottom:4px;"><span class="bounce">🏆</span></div>
+        <div class="head" style="font-size:1.25em;color:var(--gold);">
+          ${winners.length > 1 ? winners.map(w=>w.name).join(' & ') + ' gewinnen das Tippspiel!' : winners[0].name + ' gewinnt das Tippspiel!'}
+        </div>
+        <div class="sub" style="font-size:0.9em;">mit <strong style="color:var(--gold)">${top} Punkten</strong>
+          ${winners.length > 1 ? '– der Gewinn wird geteilt' : ''}
+          <span class="floaty">🎉</span><span class="wiggle">🎊</span><span class="floaty">🎉</span></div>
+        <div style="max-width:420px;margin:14px auto 0;text-align:left;">
+          ${ranking.slice(0, 5).map(p => {
+            const rank = ranking.findIndex(q => q.total === p.total);
+            return `<div class="row ${p.total === top ? 'winner-row' : ''}">
+              <span>${medal[rank] || '&nbsp;&nbsp;&nbsp;'} ${p.name}</span><span class="p">${p.total}</span>
+            </div>`;
+          }).join('')}
+        </div>
+      </div>`;
+    if (tendenz) tendenz.innerHTML = '';
     return;
   }
   if (sf.length < 4) { container.innerHTML = '<div style="color:var(--muted)">Szenarien verfügbar, sobald die Halbfinalisten feststehen.</div>'; return; }
@@ -685,11 +717,18 @@ function renderArchive(container, data) {
     if (!resp.ok) return;
     const data = await resp.json();
 
-    // Header timestamp + countdown to the final
+    // Header timestamp + countdown to the final (or champion banner when done)
     const ts = document.getElementById('last-updated');
     if (ts && data.lastUpdated) ts.textContent = fmtTimestamp(data.lastUpdated);
-    const finalMatch = (data.matches || []).find(m => m.stage === 'FINAL');
-    startCountdown(finalMatch ? finalMatch.utcDate : '2026-07-19T19:00:00Z');
+    if (data.worldChampion) {
+      const box = document.getElementById('countdown-box');
+      if (box) box.innerHTML = `<span class="label"><span class="bounce">🏆</span> ${f(data.worldChampion)} ${deName(data.worldChampion)} ist Weltmeister 2026! <span class="wiggle">🎉</span></span>`;
+      const sub = document.getElementById('subtitle');
+      if (sub) sub.innerHTML = 'Canada &bull; Mexico &bull; USA &nbsp;|&nbsp; Das Turnier ist beendet 🏁';
+    } else {
+      const finalMatch = (data.matches || []).find(m => m.stage === 'FINAL');
+      startCountdown(finalMatch ? finalMatch.utcDate : '2026-07-19T19:00:00Z');
+    }
 
     const ko = document.getElementById('knockout-container');
     if (ko) renderKnockout(ko, data.matches || []);
