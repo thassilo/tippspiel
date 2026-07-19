@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T22:02:45.730315+00:00",
+  "lastUpdated": "2026-07-19T03:24:53.008807+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1390,9 +1390,9 @@
       "group": "Spiel um Platz 3",
       "homeTeam": "Frankreich",
       "awayTeam": "England",
-      "homeGoals": 0,
-      "awayGoals": 4,
-      "status": "IN_PLAY",
+      "homeGoals": 4,
+      "awayGoals": 6,
+      "status": "FINISHED",
       "stage": "THIRD_PLACE"
     },
     {
@@ -1414,11 +1414,13 @@
   "goalsAgainstByTeam": {
     "Tunisia": 12,
     "Iraq": 12,
+    "England": 12,
     "Norwegen": 11,
     "Uzbekistan": 11,
     "Katar": 10,
     "Schweden": 10,
     "Neuseeland": 10,
+    "Frankreich": 10,
     "Paraguay": 9,
     "Schweiz": 9,
     "Deutschland": 9,
@@ -1433,7 +1435,6 @@
     "Haiti": 8,
     "Niederlande": 8,
     "Jordanien": 8,
-    "England": 8,
     "Australien": 7,
     "Belgien": 7,
     "Argentinien": 7,
@@ -1452,7 +1453,6 @@
     "Elfenbeinküste": 4,
     "Ecuador": 4,
     "Uruguay": 4,
-    "Frankreich": 4,
     "Panama": 4,
     "Mexiko": 3,
     "Südkorea": 3,
