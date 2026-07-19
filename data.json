@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T22:05:14.574681+00:00",
+  "lastUpdated": "2026-07-19T22:13:40.574848+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1404,13 +1404,17 @@
       "awayTeam": "Argentinien",
       "homeGoals": 1,
       "awayGoals": 0,
-      "status": "LIVE",
+      "status": "FINISHED",
       "stage": "FINAL"
     }
   ],
   "germanyGoals": 10,
   "germanyGames": 3,
-  "yellowCardsByTeam": {},
+  "yellowCardsByTeam": {
+    "Argentinien": 14,
+    "Ägypten": 12,
+    "Kanada": 11
+  },
   "goalsAgainstByTeam": {
     "Tunisia": 12,
     "Iraq": 12,
@@ -1434,10 +1438,10 @@
     "Marokko": 8,
     "Haiti": 8,
     "Niederlande": 8,
+    "Argentinien": 8,
     "Jordanien": 8,
     "Australien": 7,
     "Belgien": 7,
-    "Argentinien": 7,
     "Kroatien": 7,
     "Tschechien": 6,
     "Kanada": 6,
@@ -1461,103 +1465,103 @@
     "Ghana": 3,
     "Spanien": 1
   },
-  "topYellowCardTeam": null,
+  "topYellowCardTeam": "Argentinien",
   "topGoalsAgainstTeam": "Tunisia",
   "semifinals": [
-    "Spanien",
-    "Argentinien",
     "England",
-    "Frankreich"
+    "Argentinien",
+    "Frankreich",
+    "Spanien"
   ],
-  "worldChampion": null,
+  "worldChampion": "Spanien",
   "scores": {
     "FlorianH": {
-      "weltmeister": null,
+      "weltmeister": 0,
       "halbfinalisten": 5,
-      "gelbeKarten": null,
+      "gelbeKarten": 0,
       "toreDeutschland": 0,
-      "gegentore": null,
+      "gegentore": 0,
       "total": 5
     },
     "FlorianP": {
-      "weltmeister": null,
+      "weltmeister": 5,
       "halbfinalisten": 2,
-      "gelbeKarten": null,
+      "gelbeKarten": 0,
       "toreDeutschland": 0,
-      "gegentore": null,
-      "total": 2
+      "gegentore": 0,
+      "total": 7
     },
     "Manuel": {
-      "weltmeister": null,
+      "weltmeister": 0,
       "halbfinalisten": 2,
-      "gelbeKarten": null,
+      "gelbeKarten": 0,
       "toreDeutschland": 0,
-      "gegentore": null,
+      "gegentore": 0,
       "total": 2
     },
     "Benjamin": {
-      "weltmeister": null,
+      "weltmeister": 5,
       "halbfinalisten": 2,
-      "gelbeKarten": null,
+      "gelbeKarten": 0,
       "toreDeutschland": 0,
-      "gegentore": null,
-      "total": 2
+      "gegentore": 0,
+      "total": 7
     },
     "Christian": {
-      "weltmeister": null,
+      "weltmeister": 5,
       "halbfinalisten": 3,
-      "gelbeKarten": null,
+      "gelbeKarten": 3,
       "toreDeutschland": 0,
-      "gegentore": null,
-      "total": 3
+      "gegentore": 0,
+      "total": 11
     },
     "Thaddaeus": {
-      "weltmeister": null,
+      "weltmeister": 0,
       "halbfinalisten": 2,
-      "gelbeKarten": null,
+      "gelbeKarten": 3,
       "toreDeutschland": 0,
-      "gegentore": null,
-      "total": 2
+      "gegentore": 0,
+      "total": 5
     },
     "Sebastian": {
-      "weltmeister": null,
+      "weltmeister": 0,
       "halbfinalisten": 2,
-      "gelbeKarten": null,
+      "gelbeKarten": 0,
       "toreDeutschland": 0,
-      "gegentore": null,
+      "gegentore": 0,
       "total": 2
     },
     "Peter": {
-      "weltmeister": null,
+      "weltmeister": 5,
       "halbfinalisten": 2,
-      "gelbeKarten": null,
+      "gelbeKarten": 0,
       "toreDeutschland": 0,
-      "gegentore": null,
-      "total": 2
+      "gegentore": 0,
+      "total": 7
     },
     "Thassilo": {
-      "weltmeister": null,
+      "weltmeister": 0,
       "halbfinalisten": 3,
-      "gelbeKarten": null,
+      "gelbeKarten": 3,
       "toreDeutschland": 0,
-      "gegentore": null,
-      "total": 3
+      "gegentore": 0,
+      "total": 6
     },
     "David": {
-      "weltmeister": null,
+      "weltmeister": 5,
       "halbfinalisten": 5,
-      "gelbeKarten": null,
+      "gelbeKarten": 3,
       "toreDeutschland": 0,
-      "gegentore": null,
-      "total": 5
+      "gegentore": 0,
+      "total": 13
     },
     "Max": {
-      "weltmeister": null,
+      "weltmeister": 5,
       "halbfinalisten": 3,
-      "gelbeKarten": null,
+      "gelbeKarten": 3,
       "toreDeutschland": 0,
-      "gegentore": null,
-      "total": 3
+      "gegentore": 0,
+      "total": 11
     }
   }
 }
