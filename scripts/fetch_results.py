@@ -164,6 +164,16 @@ PLAYER_ORDER = [
     "Thaddaeus", "Sebastian", "Peter", "Thassilo", "David", "Max",
 ]
 
+# football-data.org liefert für die WM 2026 keine Kartendaten (bookings sind
+# in allen Match-Detail-Antworten leer). Die Kartenwertung wird daher manuell
+# gepflegt – Endstand laut offizieller Fairplay-Statistik
+# (sportdaten.spiegel.de/fussball/fifa-wm/statistik-fairplay/):
+MANUAL_YELLOW_CARDS = {
+    "Argentinien": 14,
+    "Ägypten": 12,
+    "Kanada": 11,
+}
+
 
 # ── API helpers ────────────────────────────────────────────────────────────────────────────
 
@@ -266,16 +276,19 @@ def aggregate(matches):
             elif ag > hg:
                 world_champion = away
 
-    # Yellow cards – one API call per finished group match
-    print(f"  Fetching yellow cards for {len(finished_group_ids)} group stage matches …")
-    for i, mid in enumerate(finished_group_ids):
-        if i > 0 and i % 9 == 0:
-            print("  Pausing for rate limit …")
-            time.sleep(65)
-        for booking in fetch_bookings(mid):
-            if booking.get("type") == "YELLOW_CARD":
-                team_name = booking.get("team", {}).get("name", "")
-                yellow_cards[de(team_name)] += 1
+    if MANUAL_YELLOW_CARDS:
+        yellow_cards.update(MANUAL_YELLOW_CARDS)
+    else:
+        # Yellow cards – one API call per finished group match
+        print(f"  Fetching yellow cards for {len(finished_group_ids)} group stage matches …")
+        for i, mid in enumerate(finished_group_ids):
+            if i > 0 and i % 9 == 0:
+                print("  Pausing for rate limit …")
+                time.sleep(65)
+            for booking in fetch_bookings(mid):
+                if booking.get("type") == "YELLOW_CARD":
+                    team_name = booking.get("team", {}).get("name", "")
+                    yellow_cards[de(team_name)] += 1
 
     top_yellow = max(yellow_cards, key=yellow_cards.get) if yellow_cards else None
     top_conceded = max(goals_against, key=goals_against.get) if goals_against else None
