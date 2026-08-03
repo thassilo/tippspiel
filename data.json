@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T21:58:28.390939+00:00",
+  "lastUpdated": "2026-08-03T03:21:36.239027+00:00",
   "playerOrder": [
     "FlorianH",
     "FlorianP",
@@ -1468,10 +1468,10 @@
   "topYellowCardTeam": "Argentinien",
   "topGoalsAgainstTeam": "Tunisia",
   "semifinals": [
-    "Argentinien",
-    "England",
     "Frankreich",
-    "Spanien"
+    "Argentinien",
+    "Spanien",
+    "England"
   ],
   "worldChampion": "Spanien",
   "scores": {
